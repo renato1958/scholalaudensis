@@ -1,0 +1,36 @@
+{
+  "name": "scholalaudensis",
+  "version": "1.0.0",
+  "authors": [
+    "renato1958 <felisi.renato@gmail.com>"
+  ],
+  "description": "Sito della Schola Gregoriana Laudensis",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "musica",
+    "sacra",
+    "canto",
+    "gregoriano",
+    "schola",
+    "responsive",
+    "foundation",
+    "5"
+  ],
+  "license": "none",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1",
+    "foundation-icons": "*"
+  }
+}

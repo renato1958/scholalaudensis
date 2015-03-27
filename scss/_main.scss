@@ -1,0 +1,137 @@
+@import "compass/css3";
+
+body {
+  position: relative;
+}
+
+// HOME PAGE 
+.schola-container {
+	text-align: center;
+  text-transform: uppercase;
+}
+
+.logo-grande {
+  margin-top: rem-calc(50);
+  margin-bottom: rem-calc(150);
+}
+
+.entry-link {
+  display: block;
+  font-size: rem-calc(15);
+  letter-spacing: rem-calc(8);
+}
+
+.entry-link:first-letter {
+  font-size: rem-calc(18);
+}
+
+.entry-link:link, .entry-link:visited, .entry-link:focus {
+  color: #3a3a3a;
+}
+
+.entry-link:hover {
+  color: #000;
+}
+// FINE HOME PAGE
+
+.off-canvas-list {
+  li {
+    &:last-child {
+      margin-top: rem-calc(20);
+    }
+  }
+  a {
+    text-transform: uppercase;
+  }
+}
+
+.middle {
+  background-color: white;
+}
+
+.site-header {
+  max-height: rem-calc(54);
+  background-color: #929292;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo-piccolo-container {
+  height: 100%;
+  max-height: rem-calc(54);
+  width: rem-calc(250);
+  background-color: white;
+  margin-left: 5%;;
+}
+
+.cantori {
+  display: block;
+  width: 90%;
+  margin: rem-calc(20) auto 0;
+}
+
+// SIDE NAV
+.main-side-nav {
+  li {
+    padding-left: 5%;
+    
+    &:last-child {
+      padding-top: rem-calc(20);
+    }
+  }
+  
+  a {
+    text-transform: uppercase;
+    @include text-shadow(1px 1px 2px rgba(0, 0, 0, .3))
+  }
+}
+
+// ARTICLE
+
+main {
+  margin-top: rem-calc(40);
+}
+
+article {
+  p {
+    text-align: justify;
+  }
+  
+  img {
+    float: left;
+    padding: rem-calc(10) rem-calc(10) rem-calc(10) 0;
+  }
+}
+
+.page-title {
+  font-size: rem-calc(22);
+  padding-top: rem-calc(40);
+  padding-bottom: rem-calc(25);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.article-small {
+  margin-bottom: rem-calc(20);
+  
+  p {
+    margin-bottom: rem-calc(10);
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+// hr
+.site-bottom-hr {
+  display: none;
+}
+
+.divider {
+  display: block;
+  height: 0;
+  width: 40%;
+  border: 1px solid #929292;
+  margin: 0 auto rem-calc(20) auto;
+}
