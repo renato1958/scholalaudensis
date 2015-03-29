@@ -85,17 +85,22 @@ main {
   margin-top: 2.5rem;
 }
 
-/* line 88, ../../scss/_main.scss */
+/* line 87, ../../scss/_main.scss */
+article {
+  margin-bottom: 1.25rem;
+}
+/* line 89, ../../scss/_main.scss */
 article p {
   text-align: justify;
+  margin-bottom: 0.625rem;
 }
-/* line 92, ../../scss/_main.scss */
+/* line 94, ../../scss/_main.scss */
 article img {
   float: left;
   padding: 0.625rem 0.625rem 0.625rem 0;
 }
 
-/* line 98, ../../scss/_main.scss */
+/* line 100, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   padding-top: 2.5rem;
@@ -104,26 +109,12 @@ article img {
   text-align: center;
 }
 
-/* line 106, ../../scss/_main.scss */
-.article-small {
-  margin-bottom: 1.25rem;
-}
 /* line 109, ../../scss/_main.scss */
-.article-small p {
-  margin-bottom: 0.625rem;
-}
-
-/* line 114, ../../scss/_main.scss */
-.fixed {
-  position: fixed;
-}
-
-/* line 119, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 123, ../../scss/_main.scss */
+/* line 113, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
@@ -153,37 +144,33 @@ article img {
   }
 
   /* line 19, ../../scss/_responsive.scss */
-  .article-small {
-    margin-bottom: 1.875rem;
-  }
-
-  /* line 23, ../../scss/_responsive.scss */
-  .article-small-title {
+  .article-title {
     font-size: 1.25rem;
+    margin-top: 0.9375rem;
   }
 
-  /* line 27, ../../scss/_responsive.scss */
+  /* line 24, ../../scss/_responsive.scss */
   .page-title {
     text-align: left;
     padding-top: 0;
   }
 
-  /* line 34, ../../scss/_responsive.scss */
+  /* line 31, ../../scss/_responsive.scss */
   .main-side-nav li a {
     padding-left: 1.375rem !important;
   }
 
-  /* line 40, ../../scss/_responsive.scss */
+  /* line 37, ../../scss/_responsive.scss */
   .logo-piccolo-container {
-    width: 29.722222222;
+    width: 29.722222222%;
     max-width: 20.0625rem;
     background-color: white;
     margin-left: 5%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 49, ../../scss/_responsive.scss */
+  /* line 46, ../../scss/_responsive.scss */
   body, html {
-    margin-top: 2.5rem;
+    margin-top: 0.9375rem;
   }
 }

@@ -6340,7 +6340,7 @@ ul.pagination li {
   display: block;
   color: #3a3a3a;
   margin: 0;
-  padding: 0.4375rem 0.875rem;
+  padding: 0.21875rem 0.875rem;
 }
 /* line 80, ../../components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
