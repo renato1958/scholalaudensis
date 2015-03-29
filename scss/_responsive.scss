@@ -38,7 +38,7 @@
   }
 
   .logo-piccolo-container {
-    width: 29.722222222;
+    width: 29.722222222%;
     max-width: rem-calc(321);
     background-color: white;
     margin-left: 5%;
@@ -47,6 +47,6 @@
 
 @media #{$large-up} {
   body, html {
-    margin-top: rem-calc(40);
+    margin-top: rem-calc(15);
   }  
 }
