@@ -109,17 +109,12 @@ article img {
   text-align: center;
 }
 
-/* line 108, ../../scss/_main.scss */
-.fixed {
-  position: fixed;
-}
-
-/* line 113, ../../scss/_main.scss */
+/* line 109, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 117, ../../scss/_main.scss */
+/* line 113, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
