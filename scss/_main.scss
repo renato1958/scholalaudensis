@@ -85,6 +85,7 @@ main {
 }
 
 article {
+  margin-bottom: rem-calc(20);
   p {
     text-align: justify;
     margin-bottom: rem-calc(10);
@@ -102,14 +103,6 @@ article {
   padding-bottom: rem-calc(25);
   text-transform: uppercase;
   text-align: center;
-}
-
-.article-small {
-  margin-bottom: rem-calc(20);
-  
-  p {
-    margin-bottom: rem-calc(10);
-  }
 }
 
 .fixed {
