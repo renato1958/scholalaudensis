@@ -159,22 +159,23 @@ article img {
   }
 
   /* line 23, ../../scss/_responsive.scss */
-  .article-small-title {
+  .article-title {
     font-size: 1.25rem;
+    margin-top: 0.9375rem;
   }
 
-  /* line 27, ../../scss/_responsive.scss */
+  /* line 28, ../../scss/_responsive.scss */
   .page-title {
     text-align: left;
     padding-top: 0;
   }
 
-  /* line 34, ../../scss/_responsive.scss */
+  /* line 35, ../../scss/_responsive.scss */
   .main-side-nav li a {
     padding-left: 1.375rem !important;
   }
 
-  /* line 40, ../../scss/_responsive.scss */
+  /* line 41, ../../scss/_responsive.scss */
   .logo-piccolo-container {
     width: 29.722222222%;
     max-width: 20.0625rem;
@@ -183,7 +184,7 @@ article img {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 49, ../../scss/_responsive.scss */
+  /* line 50, ../../scss/_responsive.scss */
   body, html {
     margin-top: 0.9375rem;
   }
