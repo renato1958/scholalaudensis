@@ -68,25 +68,25 @@ body {
 // PAGINE INTERNE
 .inner-wrap {
   width: 1080px;
-  margin: 80px auto;
+  margin: 15px auto;
 }
 
 .site-header {
   width: 100%;
-  height: 52px;
+  height: 33px;
   background-color: #929292;
 }
 
 .logo-piccolo-container {
-  height: 52px;
-  width: 378px;
+  height: 33px;
+  width: 257px;
   background-color: white;
   margin-left: 54px;
 }
 
 .logo-piccolo {
-  height: 52px;
-  width: 378px;  
+  height: 33px;
+  width: 233px;  
 }
 
 .content-wrapper {
@@ -95,7 +95,7 @@ body {
 }
 
 .side-nav-wrapper {
-  width: 420px;
+  width: 330px;
   float: left;
   margin-left: 15px;
 }
@@ -134,27 +134,26 @@ body {
 }
 
 main {
-  width: 600px;
-  float: right;
+  width: 690px;
+  float: left;
   margin-right: 15px;
 }
 
 .cantori {
   display: block;
-  width: 378px;
-  margin: 20px auto 0;
-}
-
-.articles {
-  padding-top: 40px;
+  width: 238px;
+  height: 171px;
+  margin: 20px 0 0;
 }
 
 .page-title {
-  padding-top: 30px;
+  padding-top: 40px;
   text-transform: uppercase;
 }
 
 article {
+  width: 690px;
+
   p {
     text-align: justify;
   }
@@ -164,13 +163,8 @@ article {
     padding: 15px 10px 10px 15px;
   }
 }
-.article-title {
-  font-size: 20px;
-  padding-top: 40px;
-  text-transform: uppercase;
-}
 
-.article-small {
+/*.article-small {
   width: 525px;
   margin: 0 auto 20px auto;
   padding: 0;
@@ -180,12 +174,12 @@ article {
     margin-bottom: 10px;
     padding: 0 15px;
   }
-}
+}*/
 
-.article-small-title {
+.article-title {
   font-size: 18px;
   margin: 0;
-  padding: 10px 0 20px 15px;
+  padding: 40px 0 20px 15px;
 }
 
 // hr

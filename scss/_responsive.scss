@@ -1,9 +1,5 @@
 @media #{$medium-up} {
 
-  body, html {
-    font-size: 80%;
-  }
-
   .logo-grande {
     margin-top: rem-calc(200);
   }
@@ -13,7 +9,7 @@
     width: 50%;
     height: 0;
     border: 1px solid #929292;
-    margin: rem-calc(80) auto rem-calc(80);
+    margin: rem-calc(40) auto rem-calc(80);
   }
     
   .article-title {
@@ -30,6 +26,7 @@
     li {
       a {
         padding-left: rem-calc(22) !important;
+        letter-spacing: rem-calc(5);
       }
     }
   }
@@ -46,4 +43,10 @@
   body, html {
     margin-top: rem-calc(15);
   }  
+}
+
+@media #{$small-only} {
+  p {
+    font-size: rem-calc(16);
+  }
 }
