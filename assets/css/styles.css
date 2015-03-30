@@ -12,7 +12,7 @@ body {
 /* line 13, ../../scss/_main.scss */
 .logo-grande {
   margin-top: 3.57143rem;
-  margin-bottom: 10.71429rem;
+  margin-bottom: 17.85714rem;
 }
 
 /* line 18, ../../scss/_main.scss */
@@ -103,8 +103,8 @@ article img {
 /* line 100, ../../scss/_main.scss */
 .page-title {
   font-size: 1.57143rem;
-  padding-top: 2.85714rem;
-  padding-bottom: 1.78571rem;
+  margin-top: 1.07143rem;
+  margin-bottom: 1.78571rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -135,7 +135,7 @@ article img {
     width: 50%;
     height: 0;
     border: 1px solid #929292;
-    margin: 5.71429rem auto 5.71429rem;
+    margin: 2.85714rem auto 5.71429rem;
   }
 
   /* line 15, ../../scss/_responsive.scss */
@@ -153,19 +153,26 @@ article img {
   /* line 27, ../../scss/_responsive.scss */
   .main-side-nav li a {
     padding-left: 1.57143rem !important;
+    letter-spacing: 0.35714rem;
   }
 
-  /* line 33, ../../scss/_responsive.scss */
+  /* line 34, ../../scss/_responsive.scss */
   .logo-piccolo-container {
     width: 29.722222222%;
-    max-width: 16.5rem;
+    max-width: 22.92857rem;
     background-color: white;
     margin-left: 5%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 42, ../../scss/_responsive.scss */
+  /* line 43, ../../scss/_responsive.scss */
   body, html {
     margin-top: 1.07143rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 49, ../../scss/_responsive.scss */
+  p {
+    font-size: 1.14286rem;
   }
 }

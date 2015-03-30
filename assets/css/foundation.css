@@ -6332,7 +6332,7 @@ ul.pagination li {
 /* line 70, ../../components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
   margin: 0 0 0.5rem 0;
-  font-size: 1.14286rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 /* line 75, ../../components/foundation/scss/foundation/components/_side-nav.scss */
@@ -6364,7 +6364,7 @@ ul.pagination li {
 /* line 101, ../../components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.heading {
   color: #3a3a3a;
-  font-size: 1.14286rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
