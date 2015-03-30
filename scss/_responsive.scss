@@ -1,9 +1,5 @@
 @media #{$medium-up} {
 
-  body, html {
-    font-size: 80%;
-  }
-
   .logo-grande {
     margin-top: rem-calc(200);
   }
@@ -36,7 +32,7 @@
 
   .logo-piccolo-container {
     width: 29.722222222%;
-    max-width: rem-calc(321);
+    max-width: rem-calc(231);
     background-color: white;
     margin-left: 5%;
   }
