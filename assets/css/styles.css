@@ -147,7 +147,7 @@ article img {
   /* line 20, ../../scss/_responsive.scss */
   .page-title {
     text-align: left;
-    padding-top: 0;
+    margin-top: 0;
   }
 
   /* line 27, ../../scss/_responsive.scss */
