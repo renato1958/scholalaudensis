@@ -1,0 +1,1 @@
+# comportamento standard: converti i fine riga in CRtext eol=cr# estensioni da considerare come testo*.html text*.css text*.scss text*.js text*.sass text*.htm text*.php text# estensioni da considerare binarie*.png binary*.gif binary*.jpg binary*.jpeg binary*.mp4 binary*.mp3 binary
