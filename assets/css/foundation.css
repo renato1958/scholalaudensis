@@ -526,7 +526,7 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2139,7 +2139,7 @@ select {
   color: #222222;
   padding: 1.14286rem;
   display: block;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-size: 1.14286rem;
 }
 /* line 143, ../../components/foundation/scss/foundation/components/_accordion.scss */
@@ -2846,7 +2846,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.42857rem;
@@ -4697,7 +4697,7 @@ select {
   border-color: #cccccc;
   padding: 0.57143rem;
   font-size: 1rem;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -5390,7 +5390,7 @@ kbd {
 /* line 91, ../../components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5961,7 +5961,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1.14286rem;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 /* line 143, ../../components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5971,7 +5971,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2.28571rem;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 /* line 144, ../../components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -6327,7 +6327,7 @@ ul.pagination li {
   padding: 2.85714rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 /* line 70, ../../components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -6351,7 +6351,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #757575;
   font-weight: 700;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 /* line 93, ../../components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6537,7 +6537,7 @@ ul.pagination li {
   float: left;
   margin-left: 1.14286rem;
   margin-bottom: 0;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-size: 1rem;
   color: #999999;
@@ -6815,7 +6815,7 @@ table tr td {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1.14286rem 2.28571rem;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-size: 1.14286rem;
 }
 /* line 48, ../../components/foundation/scss/foundation/components/_tabs.scss */
@@ -7257,7 +7257,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 1.07143rem;
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-size: 0.92857rem;
   font-weight: normal;
   text-transform: none;
@@ -8089,7 +8089,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../../components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
