@@ -529,18 +529,20 @@ body {
 
 /* line 87, ../../scss/legacy.scss */
 .logo-piccolo {
+  display: block;
   height: 40px;
   width: 291px;
+  margin: 0 auto;
 }
 
-/* line 92, ../../scss/legacy.scss */
+/* line 94, ../../scss/legacy.scss */
 .content-wrapper {
   width: 100%;
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 97, ../../scss/legacy.scss */
+/* line 99, ../../scss/legacy.scss */
 .side-nav-wrapper {
   width: 330px;
   float: left;
@@ -548,47 +550,48 @@ body {
   margin-right: 15px;
 }
 
-/* line 104, ../../scss/legacy.scss */
+/* line 106, ../../scss/legacy.scss */
 .main-side-nav {
   display: block;
   padding: 40px 0;
   list-style-type: none;
 }
-/* line 109, ../../scss/legacy.scss */
+/* line 111, ../../scss/legacy.scss */
 .main-side-nav li {
   display: block;
   padding-left: 22px;
   margin: 0 0 7px 0;
 }
-/* line 114, ../../scss/legacy.scss */
+/* line 116, ../../scss/legacy.scss */
 .main-side-nav li.last {
   padding-top: 20px;
 }
-/* line 118, ../../scss/legacy.scss */
+/* line 120, ../../scss/legacy.scss */
 .main-side-nav li.active a {
   color: #757575;
 }
-/* line 122, ../../scss/legacy.scss */
+/* line 124, ../../scss/legacy.scss */
 .main-side-nav li a {
   display: block;
   font-size: 14px;
+  font-weight: 700;
   padding: 7px 14px;
   text-decoration: none;
   text-transform: uppercase;
   color: #3a3a3a;
 }
-/* line 130, ../../scss/legacy.scss */
+/* line 133, ../../scss/legacy.scss */
 .main-side-nav li a:hover, .main-side-nav li a:focus {
   color: #757575;
 }
 
-/* line 137, ../../scss/legacy.scss */
+/* line 140, ../../scss/legacy.scss */
 main {
   width: 720px;
   float: right;
 }
 
-/* line 142, ../../scss/legacy.scss */
+/* line 145, ../../scss/legacy.scss */
 .cantori {
   display: block;
   width: 238px;
@@ -596,35 +599,35 @@ main {
   margin: 20px 0 0;
 }
 
-/* line 149, ../../scss/legacy.scss */
+/* line 152, ../../scss/legacy.scss */
 .page-title {
   padding-top: 40px;
   text-transform: uppercase;
 }
 
-/* line 154, ../../scss/legacy.scss */
+/* line 157, ../../scss/legacy.scss */
 article {
   width: 100%;
   margin-bottom: 40px;
 }
-/* line 158, ../../scss/legacy.scss */
+/* line 161, ../../scss/legacy.scss */
 article p {
   text-align: justify;
 }
-/* line 162, ../../scss/legacy.scss */
+/* line 165, ../../scss/legacy.scss */
 article img {
   float: left;
   padding: 15px 10px 10px 15px;
 }
 
-/* line 168, ../../scss/legacy.scss */
+/* line 171, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
   margin: 0;
   padding: 40px 0 20px 0;
 }
 
-/* line 175, ../../scss/legacy.scss */
+/* line 178, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -633,7 +636,7 @@ article img {
   margin: 80px auto 80px;
 }
 
-/* line 183, ../../scss/legacy.scss */
+/* line 186, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;

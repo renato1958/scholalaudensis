@@ -85,8 +85,10 @@ body {
 }
 
 .logo-piccolo {
+  display: block;
   height: 40px;
-  width: 291px;  
+  width: 291px;
+  margin: 0 auto;
 }
 
 .content-wrapper {
@@ -122,6 +124,7 @@ body {
     a {
       display: block;
       font-size: 14px;
+      font-weight: 700;
       padding: 7px 14px;
       text-decoration: none;
       text-transform: uppercase;
