@@ -89,13 +89,13 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-   $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+   $font-family-sans-serif: Verdana, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
 // $font-weight-normal: normal;
-// $font-weight-bold: bold;
+   $font-weight-bold: bold;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -1156,7 +1156,7 @@ $include-html-global-classes: $include-html-classes;
 // $side-nav-link-margin: 0;
    $side-nav-link-padding: rem-calc(3.5 14);
    $side-nav-font-size: rem-calc(14);
-// $side-nav-font-weight: $font-weight-normal;
+   $side-nav-font-weight: 700;
 // $side-nav-font-weight-active: $side-nav-font-weight;
 // $side-nav-font-family: $body-font-family;
 // $side-nav-font-family-active: $side-nav-font-family;
