@@ -440,12 +440,12 @@ th {
 body {
   background-color: white;
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 
 /* line 10, ../../scss/legacy.scss */
 .schola-container {
-  width: 960px;
+  width: 1080px;
   margin: 0 auto;
   position: relative;
 }
@@ -509,28 +509,28 @@ body {
 /* line 69, ../../scss/legacy.scss */
 .inner-wrap {
   width: 1080px;
-  margin: 15px auto;
+  margin: 15px auto 20px;
 }
 
 /* line 74, ../../scss/legacy.scss */
 .site-header {
   width: 100%;
-  height: 33px;
+  height: 40px;
   background-color: #929292;
 }
 
 /* line 80, ../../scss/legacy.scss */
 .logo-piccolo-container {
-  height: 33px;
-  width: 257px;
+  height: 40px;
+  width: 306px;
   background-color: white;
   margin-left: 54px;
 }
 
 /* line 87, ../../scss/legacy.scss */
 .logo-piccolo {
-  height: 33px;
-  width: 233px;
+  height: 40px;
+  width: 291px;
 }
 
 /* line 92, ../../scss/legacy.scss */
@@ -545,29 +545,30 @@ body {
   width: 330px;
   float: left;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
-/* line 103, ../../scss/legacy.scss */
+/* line 104, ../../scss/legacy.scss */
 .main-side-nav {
   display: block;
   padding: 40px 0;
   list-style-type: none;
 }
-/* line 108, ../../scss/legacy.scss */
+/* line 109, ../../scss/legacy.scss */
 .main-side-nav li {
   display: block;
-  padding-left: 20px;
+  padding-left: 22px;
   margin: 0 0 7px 0;
 }
-/* line 113, ../../scss/legacy.scss */
+/* line 114, ../../scss/legacy.scss */
 .main-side-nav li.last {
   padding-top: 20px;
 }
-/* line 117, ../../scss/legacy.scss */
+/* line 118, ../../scss/legacy.scss */
 .main-side-nav li.active a {
   color: #757575;
 }
-/* line 121, ../../scss/legacy.scss */
+/* line 122, ../../scss/legacy.scss */
 .main-side-nav li a {
   display: block;
   font-size: 14px;
@@ -576,16 +577,15 @@ body {
   text-transform: uppercase;
   color: #3a3a3a;
 }
-/* line 129, ../../scss/legacy.scss */
+/* line 130, ../../scss/legacy.scss */
 .main-side-nav li a:hover, .main-side-nav li a:focus {
   color: #757575;
 }
 
-/* line 136, ../../scss/legacy.scss */
+/* line 137, ../../scss/legacy.scss */
 main {
-  width: 690px;
-  float: left;
-  margin-right: 15px;
+  width: 720px;
+  float: right;
 }
 
 /* line 142, ../../scss/legacy.scss */
@@ -604,37 +604,27 @@ main {
 
 /* line 154, ../../scss/legacy.scss */
 article {
-  width: 690px;
+  width: 100%;
+  margin-bottom: 40px;
 }
-/* line 157, ../../scss/legacy.scss */
+/* line 158, ../../scss/legacy.scss */
 article p {
   text-align: justify;
 }
-/* line 161, ../../scss/legacy.scss */
+/* line 162, ../../scss/legacy.scss */
 article img {
   float: left;
   padding: 15px 10px 10px 15px;
 }
 
-/*.article-small {
-  width: 525px;
-  margin: 0 auto 20px auto;
-  padding: 0;
-  
-  p {
-    font-size: 14px;
-    margin-bottom: 10px;
-    padding: 0 15px;
-  }
-}*/
-/* line 179, ../../scss/legacy.scss */
+/* line 168, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
   margin: 0;
-  padding: 40px 0 20px 15px;
+  padding: 40px 0 20px 0;
 }
 
-/* line 186, ../../scss/legacy.scss */
+/* line 175, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -643,7 +633,7 @@ article img {
   margin: 80px auto 80px;
 }
 
-/* line 194, ../../scss/legacy.scss */
+/* line 183, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;

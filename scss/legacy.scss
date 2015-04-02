@@ -4,11 +4,11 @@
 body {
   background-color: white;
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 // PAGINA HOME
 .schola-container {
-  width: 960px;
+  width: 1080px;
   margin: 0 auto;
   position: relative;
 }
@@ -68,25 +68,25 @@ body {
 // PAGINE INTERNE
 .inner-wrap {
   width: 1080px;
-  margin: 15px auto;
+  margin: 15px auto 20px;
 }
 
 .site-header {
   width: 100%;
-  height: 33px;
+  height: 40px;
   background-color: #929292;
 }
 
 .logo-piccolo-container {
-  height: 33px;
-  width: 257px;
+  height: 40px;
+  width: 306px;
   background-color: white;
   margin-left: 54px;
 }
 
 .logo-piccolo {
-  height: 33px;
-  width: 233px;  
+  height: 40px;
+  width: 291px;  
 }
 
 .content-wrapper {
@@ -98,6 +98,7 @@ body {
   width: 330px;
   float: left;
   margin-left: 15px;
+  margin-right:15px;
 }
 
 .main-side-nav {
@@ -107,7 +108,7 @@ body {
   
   li {
     display: block;
-    padding-left: 20px;
+    padding-left: 22px;
     margin: 0 0 7px 0;
     
     &.last {
@@ -134,9 +135,8 @@ body {
 }
 
 main {
-  width: 690px;
-  float: left;
-  margin-right: 15px;
+  width: 720px;
+  float: right;
 }
 
 .cantori {
@@ -152,7 +152,8 @@ main {
 }
 
 article {
-  width: 690px;
+  width: 100%;
+  margin-bottom: 40px;
 
   p {
     text-align: justify;
@@ -164,22 +165,10 @@ article {
   }
 }
 
-/*.article-small {
-  width: 525px;
-  margin: 0 auto 20px auto;
-  padding: 0;
-  
-  p {
-    font-size: 14px;
-    margin-bottom: 10px;
-    padding: 0 15px;
-  }
-}*/
-
 .article-title {
   font-size: 18px;
   margin: 0;
-  padding: 40px 0 20px 15px;
+  padding: 40px 0 20px 0;
 }
 
 // hr
