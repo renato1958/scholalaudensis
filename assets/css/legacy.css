@@ -627,7 +627,24 @@ article img {
   padding: 40px 0 20px 0;
 }
 
-/* line 178, ../../scss/legacy.scss */
+/* line 177, ../../scss/legacy.scss */
+.role-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* line 185, ../../scss/legacy.scss */
+.lista-cantori .role-title, .lista-cantori p {
+  text-align: center;
+}
+/* line 189, ../../scss/legacy.scss */
+.lista-cantori p {
+  margin-bottom: 0;
+}
+
+/* line 195, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -636,7 +653,7 @@ article img {
   margin: 80px auto 80px;
 }
 
-/* line 186, ../../scss/legacy.scss */
+/* line 203, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;
