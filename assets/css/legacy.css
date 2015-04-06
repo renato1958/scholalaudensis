@@ -618,7 +618,7 @@ article p {
 /* line 166, ../../scss/legacy.scss */
 article img {
   float: left;
-  padding: 15px 10px 10px 15px;
+  padding: 15px 10px 10px 0;
 }
 
 /* line 172, ../../scss/legacy.scss */
