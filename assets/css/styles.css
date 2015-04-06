@@ -113,6 +113,13 @@ article img {
 }
 
 /* line 111, ../../scss/_main.scss */
+.article-title {
+  font-size: 1.42857rem;
+  font-weight: bold;
+  margin-top: 1.07143rem;
+}
+
+/* line 117, ../../scss/_main.scss */
 .role-title {
   font-size: 1.28571rem;
   font-weight: bold;
@@ -120,21 +127,21 @@ article img {
   margin-top: 1.07143rem;
 }
 
-/* line 119, ../../scss/_main.scss */
+/* line 125, ../../scss/_main.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 123, ../../scss/_main.scss */
+/* line 129, ../../scss/_main.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 129, ../../scss/_main.scss */
+/* line 135, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 133, ../../scss/_main.scss */
+/* line 139, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
@@ -159,24 +166,18 @@ article img {
   }
 
   /* line 15, ../../scss/_responsive.scss */
-  .article-title {
-    font-size: 1.42857rem;
-    margin-top: 1.07143rem;
-  }
-
-  /* line 20, ../../scss/_responsive.scss */
   .page-title {
     text-align: left;
     margin-top: 0;
   }
 
-  /* line 27, ../../scss/_responsive.scss */
+  /* line 22, ../../scss/_responsive.scss */
   .main-side-nav li a {
     padding-left: 1.57143rem !important;
     letter-spacing: 0.35714rem;
   }
 
-  /* line 34, ../../scss/_responsive.scss */
+  /* line 29, ../../scss/_responsive.scss */
   .logo-piccolo-container {
     width: 29.722222222%;
     max-width: 22.92857rem;
@@ -185,13 +186,13 @@ article img {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 43, ../../scss/_responsive.scss */
+  /* line 38, ../../scss/_responsive.scss */
   body, html {
     margin-top: 1.07143rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 49, ../../scss/_responsive.scss */
+  /* line 44, ../../scss/_responsive.scss */
   p {
     font-size: 1.14286rem;
   }
