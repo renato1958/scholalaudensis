@@ -462,22 +462,23 @@ body {
   display: block;
   text-align: center;
   font-size: 27px;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-/* line 31, ../../scss/legacy.scss */
+/* line 32, ../../scss/legacy.scss */
 .entry-link:link, .entry-link:visited, .entry-link:focus {
   color: #3a3a3a;
 }
 
-/* line 35, ../../scss/legacy.scss */
+/* line 36, ../../scss/legacy.scss */
 .entry-link:hover {
   color: #000;
 }
 
-/* line 40, ../../scss/legacy.scss */
+/* line 41, ../../scss/legacy.scss */
 #browsehappy {
   width: 500px;
   text-align: justify;
@@ -489,37 +490,37 @@ body {
   left: 200px;
   z-index: 100;
 }
-/* line 51, ../../scss/legacy.scss */
+/* line 52, ../../scss/legacy.scss */
 #browsehappy p {
   padding: 20px 20px 10px;
 }
-/* line 55, ../../scss/legacy.scss */
+/* line 56, ../../scss/legacy.scss */
 #browsehappy a, #browsehappy a:link, #browsehappy a:visited {
   color: #aaa;
 }
-/* line 58, ../../scss/legacy.scss */
+/* line 59, ../../scss/legacy.scss */
 #browsehappy a:hover, #browsehappy a:link:hover, #browsehappy a:visited:hover {
   color: #ddd;
 }
-/* line 63, ../../scss/legacy.scss */
+/* line 64, ../../scss/legacy.scss */
 #browsehappy #close-link {
   float: right;
 }
 
-/* line 69, ../../scss/legacy.scss */
+/* line 70, ../../scss/legacy.scss */
 .inner-wrap {
   width: 1080px;
   margin: 15px auto 20px;
 }
 
-/* line 74, ../../scss/legacy.scss */
+/* line 75, ../../scss/legacy.scss */
 .site-header {
   width: 100%;
   height: 40px;
   background-color: #929292;
 }
 
-/* line 80, ../../scss/legacy.scss */
+/* line 81, ../../scss/legacy.scss */
 .logo-piccolo-container {
   height: 40px;
   width: 306px;
@@ -527,7 +528,7 @@ body {
   margin-left: 54px;
 }
 
-/* line 87, ../../scss/legacy.scss */
+/* line 88, ../../scss/legacy.scss */
 .logo-piccolo {
   display: block;
   height: 40px;
@@ -535,14 +536,14 @@ body {
   margin: 0 auto;
 }
 
-/* line 94, ../../scss/legacy.scss */
+/* line 95, ../../scss/legacy.scss */
 .content-wrapper {
   width: 100%;
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 99, ../../scss/legacy.scss */
+/* line 100, ../../scss/legacy.scss */
 .side-nav-wrapper {
   width: 330px;
   float: left;
@@ -550,27 +551,27 @@ body {
   margin-right: 15px;
 }
 
-/* line 106, ../../scss/legacy.scss */
+/* line 107, ../../scss/legacy.scss */
 .main-side-nav {
   display: block;
   padding: 40px 0;
   list-style-type: none;
 }
-/* line 111, ../../scss/legacy.scss */
+/* line 112, ../../scss/legacy.scss */
 .main-side-nav li {
   display: block;
   padding-left: 22px;
   margin: 0 0 7px 0;
 }
-/* line 116, ../../scss/legacy.scss */
+/* line 117, ../../scss/legacy.scss */
 .main-side-nav li.last {
   padding-top: 20px;
 }
-/* line 120, ../../scss/legacy.scss */
+/* line 121, ../../scss/legacy.scss */
 .main-side-nav li.active a {
   color: #757575;
 }
-/* line 124, ../../scss/legacy.scss */
+/* line 125, ../../scss/legacy.scss */
 .main-side-nav li a {
   display: block;
   font-size: 14px;
@@ -580,18 +581,18 @@ body {
   text-transform: uppercase;
   color: #3a3a3a;
 }
-/* line 133, ../../scss/legacy.scss */
+/* line 134, ../../scss/legacy.scss */
 .main-side-nav li a:hover, .main-side-nav li a:focus {
   color: #757575;
 }
 
-/* line 140, ../../scss/legacy.scss */
+/* line 141, ../../scss/legacy.scss */
 main {
   width: 720px;
   float: right;
 }
 
-/* line 145, ../../scss/legacy.scss */
+/* line 146, ../../scss/legacy.scss */
 .cantori {
   display: block;
   width: 238px;
@@ -599,35 +600,35 @@ main {
   margin: 20px 0 0;
 }
 
-/* line 152, ../../scss/legacy.scss */
+/* line 153, ../../scss/legacy.scss */
 .page-title {
   padding-top: 40px;
   text-transform: uppercase;
 }
 
-/* line 157, ../../scss/legacy.scss */
+/* line 158, ../../scss/legacy.scss */
 article {
   width: 100%;
   margin-bottom: 40px;
 }
-/* line 161, ../../scss/legacy.scss */
+/* line 162, ../../scss/legacy.scss */
 article p {
   text-align: justify;
 }
-/* line 165, ../../scss/legacy.scss */
+/* line 166, ../../scss/legacy.scss */
 article img {
   float: left;
   padding: 15px 10px 10px 15px;
 }
 
-/* line 171, ../../scss/legacy.scss */
+/* line 172, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
   margin: 0;
   padding: 40px 0 20px 0;
 }
 
-/* line 177, ../../scss/legacy.scss */
+/* line 178, ../../scss/legacy.scss */
 .role-title {
   font-size: 18px;
   font-weight: bold;
@@ -635,16 +636,16 @@ article img {
   margin-top: 15px;
 }
 
-/* line 185, ../../scss/legacy.scss */
+/* line 186, ../../scss/legacy.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 189, ../../scss/legacy.scss */
+/* line 190, ../../scss/legacy.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 195, ../../scss/legacy.scss */
+/* line 196, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -653,7 +654,7 @@ article img {
   margin: 80px auto 80px;
 }
 
-/* line 203, ../../scss/legacy.scss */
+/* line 204, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;
