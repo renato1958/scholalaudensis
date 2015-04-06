@@ -105,6 +105,7 @@ article img {
 /* line 102, ../../scss/_main.scss */
 .page-title {
   font-size: 1.57143rem;
+  font-weight: bold;
   margin-top: 1.07143rem;
   margin-bottom: 1.78571rem;
   text-transform: uppercase;
@@ -112,11 +113,28 @@ article img {
 }
 
 /* line 111, ../../scss/_main.scss */
+.role-title {
+  font-size: 1.28571rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 1.07143rem;
+}
+
+/* line 119, ../../scss/_main.scss */
+.lista-cantori .role-title, .lista-cantori p {
+  text-align: center;
+}
+/* line 123, ../../scss/_main.scss */
+.lista-cantori p {
+  margin-bottom: 0;
+}
+
+/* line 129, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 115, ../../scss/_main.scss */
+/* line 133, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
