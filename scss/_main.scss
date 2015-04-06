@@ -101,10 +101,28 @@ article {
 
 .page-title {
   font-size: rem-calc(22);
+  font-weight: bold;
   margin-top: rem-calc(15);
   margin-bottom: rem-calc(25);
   text-transform: uppercase;
   text-align: center;
+}
+
+.role-title {
+  font-size: rem-calc(18);
+  font-weight: bold;
+  font-style: italic;
+  margin-top: rem-calc(15);
+}
+
+.lista-cantori {
+  .role-title, p {
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 // hr
