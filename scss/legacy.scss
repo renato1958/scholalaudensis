@@ -162,11 +162,16 @@ article {
   p {
     text-align: justify;
   }
-  
-  img {
-    float: left;
-    padding: 15px 10px 10px 0;
-  }
+}
+
+.article-image {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.left {
+  float: left;
+  padding: 10px 10px 10px 0;
 }
 
 .article-title {
