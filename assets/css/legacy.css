@@ -618,8 +618,8 @@ article p {
 
 /* line 167, ../../scss/legacy.scss */
 .article-image {
-  max-height: 120px;
-  max-width: 120px;
+  height: 120px;
+  width: 100px;
 }
 
 /* line 172, ../../scss/legacy.scss */
