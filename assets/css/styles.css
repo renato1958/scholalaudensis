@@ -99,8 +99,8 @@ article p {
 
 /* line 97, ../../scss/_main.scss */
 .article-image {
-  max-width: 8.57143rem;
-  max-height: 8.57143rem;
+  width: 7.14286rem;
+  height: 8.57143rem;
 }
 
 /* line 102, ../../scss/_main.scss */
