@@ -92,11 +92,16 @@ article {
     text-align: justify;
     margin-bottom: rem-calc(10);
   }
-  
-  img {
-    float: left;
-    padding: rem-calc(10) rem-calc(10) rem-calc(10) 0;
-  }
+}
+
+.article-image {
+  max-width: rem-calc(120);
+  max-height: rem-calc(120);
+}
+
+.left {
+  float: left;
+  padding: rem-calc(10) rem-calc(10) rem-calc(10) 0;
 }
 
 .page-title {
