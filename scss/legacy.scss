@@ -3,9 +3,13 @@
 
 body {
   background-color: white;
-  font-size: 14px;
   font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
+
+body, html {
+  font-size: 14px;
+}
+
 // PAGINA HOME
 .schola-container {
   width: 1080px;
