@@ -1,166 +1,167 @@
 /* line 3, ../../scss/_main.scss */
 body {
   position: relative;
+  font-size: 0.875rem;
 }
 
-/* line 8, ../../scss/_main.scss */
+/* line 9, ../../scss/_main.scss */
 .schola-container {
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 13, ../../scss/_main.scss */
+/* line 14, ../../scss/_main.scss */
 .logo-grande {
-  margin-top: 3.57143rem;
-  margin-bottom: 17.85714rem;
+  margin-top: 3.125rem;
+  margin-bottom: 15.625rem;
 }
 
-/* line 18, ../../scss/_main.scss */
+/* line 19, ../../scss/_main.scss */
 .entry-link {
   display: block;
-  font-size: 1.07143rem;
+  font-size: 0.9375rem;
   font-weight: bold;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  letter-spacing: 0.57143rem;
+  letter-spacing: 0.5rem;
 }
 
-/* line 26, ../../scss/_main.scss */
+/* line 27, ../../scss/_main.scss */
 .entry-link:first-letter {
-  font-size: 1.28571rem;
+  font-size: 1.125rem;
 }
 
-/* line 30, ../../scss/_main.scss */
+/* line 31, ../../scss/_main.scss */
 .entry-link:link, .entry-link:visited, .entry-link:focus {
   color: #3a3a3a;
 }
 
-/* line 34, ../../scss/_main.scss */
+/* line 35, ../../scss/_main.scss */
 .entry-link:hover {
   color: #000;
 }
 
-/* line 41, ../../scss/_main.scss */
+/* line 42, ../../scss/_main.scss */
 .off-canvas-list li:last-child {
-  margin-top: 1.42857rem;
+  margin-top: 1.25rem;
 }
-/* line 45, ../../scss/_main.scss */
+/* line 46, ../../scss/_main.scss */
 .off-canvas-list a {
   text-transform: uppercase;
 }
 
-/* line 50, ../../scss/_main.scss */
+/* line 51, ../../scss/_main.scss */
 .middle {
   background-color: white;
 }
 
-/* line 54, ../../scss/_main.scss */
+/* line 55, ../../scss/_main.scss */
 .site-header {
-  max-height: 3.85714rem;
+  max-height: 3.375rem;
   background-color: #929292;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 61, ../../scss/_main.scss */
+/* line 62, ../../scss/_main.scss */
 .cantori {
   display: block;
   width: 90%;
-  margin: 1.42857rem auto 0;
+  margin: 1.25rem auto 0;
 }
 
-/* line 69, ../../scss/_main.scss */
+/* line 70, ../../scss/_main.scss */
 .main-side-nav li {
   padding-left: 5%;
 }
-/* line 72, ../../scss/_main.scss */
+/* line 73, ../../scss/_main.scss */
 .main-side-nav li:last-child {
-  padding-top: 1.42857rem;
+  padding-top: 1.25rem;
 }
-/* line 76, ../../scss/_main.scss */
+/* line 77, ../../scss/_main.scss */
 .main-side-nav li a {
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* line 85, ../../scss/_main.scss */
+/* line 86, ../../scss/_main.scss */
 main {
-  margin-top: 2.85714rem;
+  margin-top: 2.5rem;
 }
 
-/* line 89, ../../scss/_main.scss */
+/* line 90, ../../scss/_main.scss */
 article {
-  margin-bottom: 1.42857rem;
+  margin-bottom: 1.25rem;
 }
-/* line 91, ../../scss/_main.scss */
+/* line 92, ../../scss/_main.scss */
 article p {
   text-align: justify;
-  margin-bottom: 0.71429rem;
+  margin-bottom: 0.625rem;
 }
 
-/* line 97, ../../scss/_main.scss */
+/* line 98, ../../scss/_main.scss */
 .article-image {
-  width: 7.14286rem;
-  height: 8.57143rem;
+  width: 100px;
+  height: 120px;
 }
 
-/* line 102, ../../scss/_main.scss */
+/* line 103, ../../scss/_main.scss */
 .left {
   float: left;
-  padding: 0.71429rem 0.71429rem 0.71429rem 0;
+  padding: 0.625rem 0.625rem 0.625rem 0;
 }
 
-/* line 107, ../../scss/_main.scss */
+/* line 108, ../../scss/_main.scss */
 .page-title {
-  font-size: 1.57143rem;
+  font-size: 1.375rem;
   font-weight: bold;
-  margin-top: 1.07143rem;
-  margin-bottom: 1.78571rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 1.5625rem;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 116, ../../scss/_main.scss */
+/* line 117, ../../scss/_main.scss */
 .article-title {
-  font-size: 1.42857rem;
+  font-size: 1.25rem;
   font-weight: bold;
-  margin-top: 1.07143rem;
+  margin-top: 0.9375rem;
 }
 
-/* line 122, ../../scss/_main.scss */
+/* line 123, ../../scss/_main.scss */
 .role-title {
-  font-size: 1.28571rem;
+  font-size: 1.125rem;
   font-weight: bold;
   font-style: italic;
-  margin-top: 1.07143rem;
+  margin-top: 0.9375rem;
 }
 
-/* line 130, ../../scss/_main.scss */
+/* line 131, ../../scss/_main.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 134, ../../scss/_main.scss */
+/* line 135, ../../scss/_main.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 140, ../../scss/_main.scss */
+/* line 141, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 144, ../../scss/_main.scss */
+/* line 145, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
   width: 40%;
   border: 1px solid #929292;
-  margin: 0 auto 1.42857rem auto;
+  margin: 0 auto 1.25rem auto;
 }
 
 @media only screen and (min-width: 40.063em) {
   /* line 3, ../../scss/_responsive.scss */
   .logo-grande {
-    margin-top: 14.28571rem;
+    margin-top: 12.5rem;
   }
 
   /* line 7, ../../scss/_responsive.scss */
@@ -169,7 +170,7 @@ article p {
     width: 50%;
     height: 0;
     border: 1px solid #929292;
-    margin: 2.85714rem auto 5.71429rem;
+    margin: 2.5rem auto 5rem;
   }
 
   /* line 15, ../../scss/_responsive.scss */
@@ -180,14 +181,14 @@ article p {
 
   /* line 22, ../../scss/_responsive.scss */
   .main-side-nav li a {
-    padding-left: 1.57143rem !important;
-    letter-spacing: 0.35714rem;
+    padding-left: 1.375rem !important;
+    letter-spacing: 0.3125rem;
   }
 
   /* line 29, ../../scss/_responsive.scss */
   .logo-piccolo-container {
     width: 29.722222222%;
-    max-width: 22.92857rem;
+    max-width: 20.0625rem;
     background-color: white;
     margin-left: 5%;
   }
@@ -195,12 +196,12 @@ article p {
 @media only screen and (min-width: 64.063em) {
   /* line 38, ../../scss/_responsive.scss */
   body, html {
-    margin-top: 1.07143rem;
+    margin-top: 0.9375rem;
   }
 }
 @media only screen and (max-width: 40em) {
   /* line 44, ../../scss/_responsive.scss */
   p {
-    font-size: 1.14286rem;
+    font-size: 1rem;
   }
 }
