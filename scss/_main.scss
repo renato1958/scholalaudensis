@@ -2,6 +2,7 @@
 
 body {
   position: relative;
+  font-size: rem-calc(14);
 }
 
 // HOME PAGE 
@@ -95,8 +96,8 @@ article {
 }
 
 .article-image {
-  width: rem-calc(100);
-  height: rem-calc(120);
+  width: 100px;
+  height: 120px;
 }
 
 .left {
