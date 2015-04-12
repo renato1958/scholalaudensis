@@ -625,7 +625,7 @@ article p {
 /* line 172, ../../scss/legacy.scss */
 .left {
   float: left;
-  padding: 10px 10px 10px 0;
+  margin: 10px 10px 10px 0;
 }
 
 /* line 177, ../../scss/legacy.scss */

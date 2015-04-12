@@ -1,8 +1,9 @@
 @import "compass/css3";
 
-body {
+body, html {
   position: relative;
   font-size: rem-calc(14);
+  height: 100%;
 }
 
 // HOME PAGE 
@@ -102,7 +103,7 @@ article {
 
 .left {
   float: left;
-  padding: rem-calc(10) rem-calc(10) rem-calc(10) 0;
+  margin: rem-calc(10) rem-calc(10) rem-calc(10) 0;
 }
 
 .page-title {
