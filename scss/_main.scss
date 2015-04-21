@@ -96,6 +96,14 @@ article {
   }
 }
 
+aside {
+  @extend article;
+
+  p, h3, li {
+    color: #555 !important;
+  }
+}
+
 .article-image {
   width: 100px;
   height: 120px;

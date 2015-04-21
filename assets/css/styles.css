@@ -90,28 +90,33 @@ main {
 }
 
 /* line 91, ../../scss/_main.scss */
-article {
+article, aside {
   margin-bottom: 1.25rem;
 }
 /* line 93, ../../scss/_main.scss */
-article p {
+article p, aside p {
   text-align: justify;
   margin-bottom: 0.625rem;
 }
 
-/* line 99, ../../scss/_main.scss */
+/* line 102, ../../scss/_main.scss */
+aside p, aside h3, aside li {
+  color: #555 !important;
+}
+
+/* line 107, ../../scss/_main.scss */
 .article-image {
   width: 100px;
   height: 120px;
 }
 
-/* line 104, ../../scss/_main.scss */
+/* line 112, ../../scss/_main.scss */
 .left {
   float: left;
   margin: 0.625rem 0.625rem 0.625rem 0;
 }
 
-/* line 109, ../../scss/_main.scss */
+/* line 117, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   font-weight: bold;
@@ -121,14 +126,14 @@ article p {
   text-align: center;
 }
 
-/* line 118, ../../scss/_main.scss */
+/* line 126, ../../scss/_main.scss */
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin-top: 0.9375rem;
 }
 
-/* line 124, ../../scss/_main.scss */
+/* line 132, ../../scss/_main.scss */
 .role-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -136,21 +141,21 @@ article p {
   margin-top: 0.9375rem;
 }
 
-/* line 132, ../../scss/_main.scss */
+/* line 140, ../../scss/_main.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 136, ../../scss/_main.scss */
+/* line 144, ../../scss/_main.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 142, ../../scss/_main.scss */
+/* line 150, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 146, ../../scss/_main.scss */
+/* line 154, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
