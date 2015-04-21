@@ -171,6 +171,15 @@ article {
   }
 }
 
+aside {
+  @extends article;
+
+
+  p, h3, li {
+    color: #555;
+  }
+}
+
 .article-image {
   height: 120px;
   width: 100px;
