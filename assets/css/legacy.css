@@ -458,18 +458,18 @@ body, html {
 .logo-grande {
   display: block;
   width: 499px;
-  margin: 200px auto 150px;
+  margin: 200px auto 230px;
 }
 
 /* line 26, ../../scss/legacy.scss */
 .entry-link {
   display: block;
   text-align: center;
-  font-size: 27px;
+  font-size: 15px;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 8px;
 }
 
 /* line 36, ../../scss/legacy.scss */
