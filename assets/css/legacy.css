@@ -616,42 +616,43 @@ main {
 /* line 165, ../../scss/legacy.scss */
 article {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 /* line 169, ../../scss/legacy.scss */
 article p {
   text-align: justify;
+  margin-bottom: 10px;
 }
 
-/* line 174, ../../scss/legacy.scss */
+/* line 175, ../../scss/legacy.scss */
 aside {
   @extends article;
 }
-/* line 178, ../../scss/legacy.scss */
+/* line 179, ../../scss/legacy.scss */
 aside p, aside h3, aside li {
   color: #555;
 }
 
-/* line 183, ../../scss/legacy.scss */
+/* line 184, ../../scss/legacy.scss */
 .article-image {
   height: 120px;
   width: 100px;
 }
 
-/* line 188, ../../scss/legacy.scss */
+/* line 189, ../../scss/legacy.scss */
 .left {
   float: left;
   margin: 10px 10px 10px 0;
 }
 
-/* line 193, ../../scss/legacy.scss */
+/* line 194, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
   margin: 0;
   padding: 40px 0 20px 0;
 }
 
-/* line 199, ../../scss/legacy.scss */
+/* line 200, ../../scss/legacy.scss */
 .role-title {
   font-size: 18px;
   font-weight: bold;
@@ -659,16 +660,29 @@ aside p, aside h3, aside li {
   margin-top: 15px;
 }
 
-/* line 207, ../../scss/legacy.scss */
+/* line 208, ../../scss/legacy.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 211, ../../scss/legacy.scss */
+/* line 212, ../../scss/legacy.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 217, ../../scss/legacy.scss */
+/* line 218, ../../scss/legacy.scss */
+.center .article-title {
+  text-align: center;
+}
+/* line 223, ../../scss/legacy.scss */
+.center .lista-cantori .role-title, .center .lista-cantori p {
+  text-align: left;
+}
+/* line 227, ../../scss/legacy.scss */
+.center .lista-cantori p {
+  padding-left: 20px;
+}
+
+/* line 235, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -677,7 +691,7 @@ aside p, aside h3, aside li {
   margin: 80px auto 80px;
 }
 
-/* line 225, ../../scss/legacy.scss */
+/* line 243, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;
