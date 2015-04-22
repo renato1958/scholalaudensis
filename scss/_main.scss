@@ -140,9 +140,21 @@ aside {
   .role-title, p {
     text-align: center;
   }
+}
 
-  p {
-    margin-bottom: 0;
+.center {
+  .article-title {
+    text-align: center;
+  }
+
+  .lista-cantori {
+    .role-title, p {
+      text-align: left;
+    }
+
+    p {
+      padding-left: rem-calc(20);
+    }
   }
 }
 
