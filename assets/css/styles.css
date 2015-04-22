@@ -145,30 +145,26 @@ aside p, aside h3, aside li {
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 144, ../../scss/_main.scss */
-.lista-cantori p {
-  margin-bottom: 0;
-}
 
-/* line 150, ../../scss/_main.scss */
+/* line 146, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 155, ../../scss/_main.scss */
+/* line 151, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 159, ../../scss/_main.scss */
+/* line 155, ../../scss/_main.scss */
 .center .lista-cantori p {
   padding-left: 1.25rem;
 }
 
-/* line 166, ../../scss/_main.scss */
+/* line 162, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 170, ../../scss/_main.scss */
+/* line 166, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
