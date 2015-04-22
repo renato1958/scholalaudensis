@@ -146,6 +146,22 @@ aside {
   }
 }
 
+.center {
+  .article-title {
+    text-align: center;
+  }
+
+  .lista-cantori {
+    .role-title, p {
+      text-align: left;
+    }
+
+    p {
+      padding-left: rem-calc(20);
+    }
+  }
+}
+
 // hr
 .site-bottom-hr {
   display: none;

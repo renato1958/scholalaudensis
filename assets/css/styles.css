@@ -151,11 +151,24 @@ aside p, aside h3, aside li {
 }
 
 /* line 150, ../../scss/_main.scss */
+.center .article-title {
+  text-align: center;
+}
+/* line 155, ../../scss/_main.scss */
+.center .lista-cantori .role-title, .center .lista-cantori p {
+  text-align: left;
+}
+/* line 159, ../../scss/_main.scss */
+.center .lista-cantori p {
+  padding-left: 1.25rem;
+}
+
+/* line 166, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 154, ../../scss/_main.scss */
+/* line 170, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
