@@ -164,10 +164,11 @@ main {
 
 article {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   p {
     text-align: justify;
+    margin-bottom: 10px;
   }
 }
 
@@ -212,6 +213,23 @@ aside {
     margin-bottom: 0;
   }
 }
+
+.center {
+  .article-title {
+    text-align: center;
+  }
+
+  .lista-cantori {
+    .role-title, p {
+      text-align: left;
+    }
+
+    p {
+      padding-left: 20px;
+    }
+  }
+}
+
 
 // hr
 .site-bottom-hr {
