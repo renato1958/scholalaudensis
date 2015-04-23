@@ -644,15 +644,19 @@ aside p, aside h3, aside li {
   float: left;
   margin: 10px 10px 10px 0;
 }
+/* line 193, ../../scss/legacy.scss */
+.center .left {
+  margin-left: 20px;
+}
 
-/* line 194, ../../scss/legacy.scss */
+/* line 198, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
   margin: 0;
   padding: 40px 0 20px 0;
 }
 
-/* line 200, ../../scss/legacy.scss */
+/* line 204, ../../scss/legacy.scss */
 .role-title {
   font-size: 18px;
   font-weight: bold;
@@ -660,29 +664,29 @@ aside p, aside h3, aside li {
   margin-top: 15px;
 }
 
-/* line 208, ../../scss/legacy.scss */
+/* line 212, ../../scss/legacy.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 212, ../../scss/legacy.scss */
+/* line 216, ../../scss/legacy.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 218, ../../scss/legacy.scss */
+/* line 222, ../../scss/legacy.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 223, ../../scss/legacy.scss */
+/* line 227, ../../scss/legacy.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 227, ../../scss/legacy.scss */
+/* line 231, ../../scss/legacy.scss */
 .center .lista-cantori p {
   padding-left: 20px;
 }
 
-/* line 235, ../../scss/legacy.scss */
+/* line 239, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -691,7 +695,7 @@ aside p, aside h3, aside li {
   margin: 80px auto 80px;
 }
 
-/* line 243, ../../scss/legacy.scss */
+/* line 247, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;
