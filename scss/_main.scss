@@ -111,7 +111,7 @@ aside {
 
 .left {
   float: left;
-  margin: rem-calc(10) rem-calc(10) rem-calc(10) 0;
+  margin: 0 rem-calc(10) rem-calc(10) 0;
 
   .center & {
     margin-left: rem-calc(20);

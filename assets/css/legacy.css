@@ -642,7 +642,7 @@ aside p, aside h3, aside li {
 /* line 189, ../../scss/legacy.scss */
 .left {
   float: left;
-  margin: 10px 10px 10px 0;
+  margin: 0 10px 10px 0;
 }
 /* line 193, ../../scss/legacy.scss */
 .center .left {
