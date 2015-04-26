@@ -184,6 +184,11 @@ aside {
 .article-image {
   height: 120px;
   width: 100px;
+
+  &.landscape {
+    height: 100px;
+    width: 120px;
+  }
 }
 
 .left {

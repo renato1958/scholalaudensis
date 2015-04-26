@@ -109,18 +109,23 @@ aside p, aside h3, aside li {
   width: 100px;
   height: 120px;
 }
+/* line 111, ../../scss/_main.scss */
+.article-image.landscape {
+  width: 120px;
+  height: 100px;
+}
 
-/* line 112, ../../scss/_main.scss */
+/* line 117, ../../scss/_main.scss */
 .left {
   float: left;
   margin: 0 0.625rem 0.625rem 0;
 }
-/* line 116, ../../scss/_main.scss */
+/* line 121, ../../scss/_main.scss */
 .center .left {
   margin-left: 1.25rem;
 }
 
-/* line 121, ../../scss/_main.scss */
+/* line 126, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   font-weight: bold;
@@ -130,14 +135,14 @@ aside p, aside h3, aside li {
   text-align: center;
 }
 
-/* line 130, ../../scss/_main.scss */
+/* line 135, ../../scss/_main.scss */
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin-top: 0.9375rem;
 }
 
-/* line 136, ../../scss/_main.scss */
+/* line 141, ../../scss/_main.scss */
 .role-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -145,30 +150,30 @@ aside p, aside h3, aside li {
   margin-top: 0.9375rem;
 }
 
-/* line 144, ../../scss/_main.scss */
+/* line 149, ../../scss/_main.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
 
-/* line 150, ../../scss/_main.scss */
+/* line 155, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 155, ../../scss/_main.scss */
+/* line 160, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 159, ../../scss/_main.scss */
+/* line 164, ../../scss/_main.scss */
 .center .lista-cantori p {
   padding-left: 1.25rem;
 }
 
-/* line 166, ../../scss/_main.scss */
+/* line 171, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 170, ../../scss/_main.scss */
+/* line 175, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
