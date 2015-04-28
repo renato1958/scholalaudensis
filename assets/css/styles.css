@@ -98,39 +98,43 @@ article p, aside p {
   text-align: justify;
   margin-bottom: 0.625rem;
 }
+/* line 98, ../../scss/_main.scss */
+article ul, aside ul {
+  clear: both;
+}
 
-/* line 102, ../../scss/_main.scss */
+/* line 106, ../../scss/_main.scss */
 aside p, aside h3, aside li {
   color: #555 !important;
 }
 
-/* line 107, ../../scss/_main.scss */
+/* line 111, ../../scss/_main.scss */
 .article-image {
   width: 100px;
   height: 120px;
 }
-/* line 111, ../../scss/_main.scss */
+/* line 115, ../../scss/_main.scss */
 .article-image.landscape {
   width: 120px;
   height: 100px;
 }
-/* line 116, ../../scss/_main.scss */
+/* line 120, ../../scss/_main.scss */
 .article-image.squared {
   width: 120px;
   height: 120px;
 }
 
-/* line 122, ../../scss/_main.scss */
+/* line 126, ../../scss/_main.scss */
 .left {
   float: left;
   margin: 0 0.625rem 0.625rem 0;
 }
-/* line 126, ../../scss/_main.scss */
+/* line 130, ../../scss/_main.scss */
 .center .left {
   margin-left: 1.25rem;
 }
 
-/* line 131, ../../scss/_main.scss */
+/* line 135, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   font-weight: bold;
@@ -140,14 +144,14 @@ aside p, aside h3, aside li {
   text-align: center;
 }
 
-/* line 140, ../../scss/_main.scss */
+/* line 144, ../../scss/_main.scss */
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin-top: 0.9375rem;
 }
 
-/* line 146, ../../scss/_main.scss */
+/* line 150, ../../scss/_main.scss */
 .role-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -155,30 +159,30 @@ aside p, aside h3, aside li {
   margin-top: 0.9375rem;
 }
 
-/* line 154, ../../scss/_main.scss */
+/* line 158, ../../scss/_main.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
 
-/* line 160, ../../scss/_main.scss */
+/* line 164, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 165, ../../scss/_main.scss */
+/* line 169, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 169, ../../scss/_main.scss */
+/* line 173, ../../scss/_main.scss */
 .center .lista-cantori p {
   padding-left: 1.25rem;
 }
 
-/* line 176, ../../scss/_main.scss */
+/* line 180, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 180, ../../scss/_main.scss */
+/* line 184, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
