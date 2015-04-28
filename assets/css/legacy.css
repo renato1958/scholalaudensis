@@ -623,50 +623,54 @@ article p {
   text-align: justify;
   margin-bottom: 10px;
 }
+/* line 174, ../../scss/legacy.scss */
+article ul {
+  clear: both;
+}
 
-/* line 175, ../../scss/legacy.scss */
+/* line 179, ../../scss/legacy.scss */
 aside {
   @extends article;
 }
-/* line 179, ../../scss/legacy.scss */
+/* line 183, ../../scss/legacy.scss */
 aside p, aside h3, aside li {
   color: #555;
 }
 
-/* line 184, ../../scss/legacy.scss */
+/* line 188, ../../scss/legacy.scss */
 .article-image {
   height: 120px;
   width: 100px;
 }
-/* line 188, ../../scss/legacy.scss */
+/* line 192, ../../scss/legacy.scss */
 .article-image.landscape {
   height: 100px;
   width: 120px;
 }
-/* line 193, ../../scss/legacy.scss */
+/* line 197, ../../scss/legacy.scss */
 .article-image.squared {
   width: 120px;
   height: 120px;
 }
 
-/* line 199, ../../scss/legacy.scss */
+/* line 203, ../../scss/legacy.scss */
 .left {
   float: left;
   margin: 0 10px 10px 0;
 }
-/* line 203, ../../scss/legacy.scss */
+/* line 207, ../../scss/legacy.scss */
 .center .left {
   margin-left: 20px;
 }
 
-/* line 208, ../../scss/legacy.scss */
+/* line 212, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
   margin: 0;
   padding: 40px 0 20px 0;
 }
 
-/* line 214, ../../scss/legacy.scss */
+/* line 218, ../../scss/legacy.scss */
 .role-title {
   font-size: 18px;
   font-weight: bold;
@@ -674,29 +678,29 @@ aside p, aside h3, aside li {
   margin-top: 15px;
 }
 
-/* line 222, ../../scss/legacy.scss */
+/* line 226, ../../scss/legacy.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
-/* line 226, ../../scss/legacy.scss */
+/* line 230, ../../scss/legacy.scss */
 .lista-cantori p {
   margin-bottom: 0;
 }
 
-/* line 232, ../../scss/legacy.scss */
+/* line 236, ../../scss/legacy.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 237, ../../scss/legacy.scss */
+/* line 241, ../../scss/legacy.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 241, ../../scss/legacy.scss */
+/* line 245, ../../scss/legacy.scss */
 .center .lista-cantori p {
   padding-left: 20px;
 }
 
-/* line 249, ../../scss/legacy.scss */
+/* line 253, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -705,7 +709,7 @@ aside p, aside h3, aside li {
   margin: 80px auto 80px;
 }
 
-/* line 257, ../../scss/legacy.scss */
+/* line 261, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;
