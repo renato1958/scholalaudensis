@@ -237,4 +237,9 @@ aside p, aside h3, aside li {
   p {
     font-size: 1rem;
   }
+
+  /* line 48, ../../scss/_responsive.scss */
+  .increase-height {
+    height: 75rem;
+  }
 }
