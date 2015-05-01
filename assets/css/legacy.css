@@ -656,7 +656,7 @@ aside p, aside h3, aside li {
 /* line 203, ../../scss/legacy.scss */
 .left {
   float: left;
-  margin: 0 10px 10px 0;
+  margin: 6px 10px 10px 0;
 }
 /* line 207, ../../scss/legacy.scss */
 .center .left {
