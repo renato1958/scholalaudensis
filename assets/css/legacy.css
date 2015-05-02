@@ -641,33 +641,33 @@ aside p, aside h3, aside li {
 .article-image {
   height: 120px;
   width: 100px;
+  vertical-align: top;
 }
-/* line 192, ../../scss/legacy.scss */
+/* line 193, ../../scss/legacy.scss */
 .article-image.landscape {
   height: 100px;
   width: 120px;
 }
-/* line 197, ../../scss/legacy.scss */
+/* line 198, ../../scss/legacy.scss */
 .article-image.squared {
   width: 120px;
   height: 120px;
 }
 
-/* line 203, ../../scss/legacy.scss */
+/* line 204, ../../scss/legacy.scss */
 .left {
   float: left;
-  margin: 6px 10px 10px 0;
+  margin: 0 10px 10px 0;
 }
-/* line 207, ../../scss/legacy.scss */
+/* line 208, ../../scss/legacy.scss */
 .center .left {
   margin-left: 20px;
 }
 
-/* line 212, ../../scss/legacy.scss */
+/* line 213, ../../scss/legacy.scss */
 .article-title {
   font-size: 18px;
-  margin: 0;
-  padding: 40px 0 20px 0;
+  margin: 40px 0 20px 0;
 }
 
 /* line 218, ../../scss/legacy.scss */
