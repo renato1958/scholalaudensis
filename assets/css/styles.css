@@ -148,7 +148,7 @@ aside p, aside h3, aside li {
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
-  margin-top: 0.9375rem;
+  margin: 0.9375rem 0;
 }
 
 /* line 150, ../../scss/_main.scss */

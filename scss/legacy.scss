@@ -188,6 +188,7 @@ aside {
 .article-image {
   height: 120px;
   width: 100px;
+  vertical-align: top;
 
   &.landscape {
     height: 100px;
@@ -202,7 +203,7 @@ aside {
 
 .left {
   float: left;
-  margin: 6px 10px 10px 0;
+  margin: 0 10px 10px 0;
 
   .center & {
     margin-left: 20px;
@@ -211,8 +212,7 @@ aside {
 
 .article-title {
   font-size: 18px;
-  margin: 0;
-  padding: 40px 0 20px 0;
+  margin: 40px 0 20px 0;
 }
 
 .role-title {
