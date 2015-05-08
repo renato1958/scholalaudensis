@@ -191,6 +191,43 @@ aside p, aside h3, aside li {
   margin: 0 auto 1.25rem auto;
 }
 
+/* line 192, ../../scss/_main.scss */
+.eventi {
+  display: table;
+  width: 100%;
+}
+
+/* line 197, ../../scss/_main.scss */
+.event {
+  display: table-row;
+}
+
+/* line 201, ../../scss/_main.scss */
+.data-evento, .event-block {
+  display: table-cell;
+  padding: 0.75rem;
+  border: thin solid #929292;
+  border-collapse: collapse;
+}
+
+/* line 208, ../../scss/_main.scss */
+.data-evento {
+  border-right: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+/* line 216, ../../scss/_main.scss */
+.event-block p {
+  margin-bottom: 0;
+}
+
+/* line 221, ../../scss/_main.scss */
+.event-name {
+  font-style: italic;
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 3, ../../scss/_responsive.scss */
   .logo-grande {
