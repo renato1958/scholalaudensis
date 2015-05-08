@@ -264,3 +264,37 @@ aside {
   height: 0;
   border: 1px solid #929292;
 }
+
+.eventi {
+  display: table;
+  width: 100%;
+}
+
+.event {
+  display: table-row;
+}
+
+.data-evento, .event-block {
+  display: table-cell;
+  padding: 12px;
+  border: thin solid #929292;
+  border-collapse: collapse;
+}
+
+.data-evento {
+  border-right: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.event-block {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.event-name {
+  font-style: italic;
+}
