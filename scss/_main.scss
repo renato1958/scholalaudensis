@@ -188,3 +188,36 @@ aside {
   border: 1px solid #929292;
   margin: 0 auto rem-calc(20) auto;
 }
+
+.eventi {
+  display: table;
+  width: 100%;
+}
+
+.event {
+  display: table-row;
+}
+
+.data-evento, .event-block {
+  display: table-cell;
+  padding: rem-calc(12);
+  border: thin solid #929292;
+  border-collapse: collapse;
+}
+
+.data-evento {
+  border-right: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.event-block {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.event-name {
+  font-style: italic;
+}

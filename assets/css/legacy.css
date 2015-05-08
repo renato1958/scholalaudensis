@@ -716,3 +716,41 @@ aside p, aside h3, aside li {
   height: 0;
   border: 1px solid #929292;
 }
+
+/* line 268, ../../scss/legacy.scss */
+.eventi {
+  display: table;
+  width: 100%;
+}
+
+/* line 273, ../../scss/legacy.scss */
+.event {
+  display: table-row;
+}
+
+/* line 277, ../../scss/legacy.scss */
+.data-evento, .event-block {
+  display: table-cell;
+  padding: 12px;
+  border: thin solid #929292;
+  border-collapse: collapse;
+}
+
+/* line 284, ../../scss/legacy.scss */
+.data-evento {
+  border-right: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+/* line 292, ../../scss/legacy.scss */
+.event-block p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 298, ../../scss/legacy.scss */
+.event-name {
+  font-style: italic;
+}
