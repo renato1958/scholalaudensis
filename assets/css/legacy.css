@@ -769,3 +769,9 @@ aside p, aside h3, aside li {
 .scheda p:first-child {
   font-weight: bold;
 }
+
+/* line 314, ../../scss/legacy.scss */
+.clearing-thumbs {
+  list-style-type: none;
+  padding-left: 0;
+}
