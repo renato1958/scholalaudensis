@@ -37,7 +37,17 @@
 @media #{$large-up} {
   body, html {
     margin-top: rem-calc(15);
-  }  
+  }
+
+  .bigger {
+    width: rem-calc(300);
+  }
+}
+
+@media #{$medium-only} {
+  .bigger {
+    width: rem-calc(220);
+  }
 }
 
 @media #{$small-only} {
@@ -48,4 +58,9 @@
   .increase-height {
     height: rem-calc(1200);
   }
+
+  .bigger {
+    width: rem-calc(150);
+  }
 }
+
