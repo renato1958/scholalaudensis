@@ -228,6 +228,24 @@ aside p, aside h3, aside li {
   font-style: italic;
 }
 
+/* line 225, ../../scss/_main.scss */
+.clear {
+  clear: both;
+}
+
+/* line 229, ../../scss/_main.scss */
+.scheda {
+  margin-bottom: 1.25rem;
+}
+/* line 231, ../../scss/_main.scss */
+.scheda p {
+  margin-bottom: 0;
+}
+/* line 234, ../../scss/_main.scss */
+.scheda p:first-child {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 3, ../../scss/_responsive.scss */
   .logo-grande {
@@ -268,15 +286,31 @@ aside p, aside h3, aside li {
   body, html {
     margin-top: 0.9375rem;
   }
+
+  /* line 42, ../../scss/_responsive.scss */
+  .bigger {
+    width: 18.75rem;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 48, ../../scss/_responsive.scss */
+  .bigger {
+    width: 13.75rem;
+  }
 }
 @media only screen and (max-width: 40em) {
-  /* line 44, ../../scss/_responsive.scss */
+  /* line 54, ../../scss/_responsive.scss */
   p {
     font-size: 1rem;
   }
 
-  /* line 48, ../../scss/_responsive.scss */
+  /* line 58, ../../scss/_responsive.scss */
   .increase-height {
     height: 75rem;
+  }
+
+  /* line 62, ../../scss/_responsive.scss */
+  .bigger {
+    width: 9.375rem;
   }
 }

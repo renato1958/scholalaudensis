@@ -747,3 +747,26 @@ aside p, aside h3, aside li {
 .event-name {
   font-style: italic;
 }
+
+/* line 295, ../../scss/legacy.scss */
+.bigger {
+  width: 300px;
+}
+
+/* line 299, ../../scss/legacy.scss */
+.clear {
+  clear: both;
+}
+
+/* line 303, ../../scss/legacy.scss */
+.scheda {
+  margin-bottom: 20px;
+}
+/* line 305, ../../scss/legacy.scss */
+.scheda p {
+  margin-bottom: 0;
+}
+/* line 308, ../../scss/legacy.scss */
+.scheda p:first-child {
+  font-weight: bold;
+}

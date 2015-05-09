@@ -291,3 +291,22 @@ aside {
 .event-name {
   font-style: italic;
 }
+
+.bigger {
+  width: 300px;
+}
+
+.clear {
+  clear: both;
+}
+
+.scheda {
+  margin-bottom: 20px;
+  p {
+    margin-bottom: 0;
+
+    &:first-child {
+      font-weight: bold;
+    }
+  }
+}

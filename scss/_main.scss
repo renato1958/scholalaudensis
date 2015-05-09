@@ -221,3 +221,18 @@ aside {
 .event-name {
   font-style: italic;
 }
+
+.clear {
+  clear: both;
+}
+
+.scheda {
+  margin-bottom: rem-calc(20);
+  p {
+    margin-bottom: 0;
+
+    &:first-child {
+      font-weight: bold;
+    }
+  }
+}
