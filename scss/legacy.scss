@@ -260,16 +260,22 @@ aside {
 .eventi {
   display: table;
   width: 100%;
+  margin-bottom: 60px;
 }
 
-.event {
+.evento {
   display: table-row;
+}
+
+.evento-concerto {
+  @extend .evento;
+  background-color: #eee;
 }
 
 .data-evento, .event-block {
   display: table-cell;
   padding: 12px;
-  border: thin solid #929292;
+  border: 1px solid #929292;
   border-collapse: collapse;
 }
 
@@ -278,12 +284,12 @@ aside {
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  width: 25%;
 }
 
 .event-block {
   p {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
   }
 }
 
