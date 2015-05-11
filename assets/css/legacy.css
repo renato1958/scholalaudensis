@@ -713,64 +713,70 @@ aside p, aside h3, aside li {
 .eventi {
   display: table;
   width: 100%;
+  margin-bottom: 60px;
 }
 
-/* line 265, ../../scss/legacy.scss */
-.event {
+/* line 266, ../../scss/legacy.scss */
+.evento, .evento-concerto {
   display: table-row;
 }
 
-/* line 269, ../../scss/legacy.scss */
+/* line 270, ../../scss/legacy.scss */
+.evento-concerto {
+  background-color: #eee;
+}
+
+/* line 275, ../../scss/legacy.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 12px;
-  border: thin solid #929292;
+  border: 1px solid #929292;
   border-collapse: collapse;
 }
 
-/* line 276, ../../scss/legacy.scss */
+/* line 282, ../../scss/legacy.scss */
 .data-evento {
   border-right: none;
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  width: 25%;
 }
 
-/* line 284, ../../scss/legacy.scss */
+/* line 291, ../../scss/legacy.scss */
 .event-block p {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0;
 }
 
-/* line 290, ../../scss/legacy.scss */
+/* line 296, ../../scss/legacy.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 294, ../../scss/legacy.scss */
+/* line 300, ../../scss/legacy.scss */
 .bigger {
   width: 300px;
 }
 
-/* line 298, ../../scss/legacy.scss */
+/* line 304, ../../scss/legacy.scss */
 .clear {
   clear: both;
 }
 
-/* line 302, ../../scss/legacy.scss */
+/* line 308, ../../scss/legacy.scss */
 .scheda {
   margin-bottom: 20px;
 }
-/* line 304, ../../scss/legacy.scss */
+/* line 310, ../../scss/legacy.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 307, ../../scss/legacy.scss */
+/* line 313, ../../scss/legacy.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
 
-/* line 314, ../../scss/legacy.scss */
+/* line 320, ../../scss/legacy.scss */
 .clearing-thumbs {
   list-style-type: none;
   padding-left: 0;

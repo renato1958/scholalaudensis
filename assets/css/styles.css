@@ -212,7 +212,7 @@ aside p, aside h3, aside li {
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
-  border: thin solid #929292;
+  border: 1px solid #929292;
   border-collapse: collapse;
 }
 
