@@ -192,10 +192,16 @@ aside {
 .eventi {
   display: table;
   width: 100%;
+  margin-bottom: rem-calc(60);
 }
 
-.event {
+.evento {
   display: table-row;
+}
+
+.evento-concerto {
+  @extend .evento;
+  background-color: #eee;
 }
 
 .data-evento, .event-block {
@@ -210,6 +216,7 @@ aside {
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  width: 25%;
 }
 
 .event-block {
