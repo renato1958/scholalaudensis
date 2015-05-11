@@ -195,14 +195,20 @@ aside p, aside h3, aside li {
 .eventi {
   display: table;
   width: 100%;
+  margin-bottom: 3.75rem;
 }
 
-/* line 197, ../../scss/_main.scss */
-.event {
+/* line 198, ../../scss/_main.scss */
+.evento, .evento-concerto {
   display: table-row;
 }
 
-/* line 201, ../../scss/_main.scss */
+/* line 202, ../../scss/_main.scss */
+.evento-concerto {
+  background-color: #eee;
+}
+
+/* line 207, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
@@ -210,38 +216,39 @@ aside p, aside h3, aside li {
   border-collapse: collapse;
 }
 
-/* line 208, ../../scss/_main.scss */
+/* line 214, ../../scss/_main.scss */
 .data-evento {
   border-right: none;
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  width: 25%;
 }
 
-/* line 216, ../../scss/_main.scss */
+/* line 223, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
 
-/* line 221, ../../scss/_main.scss */
+/* line 228, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 225, ../../scss/_main.scss */
+/* line 232, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 229, ../../scss/_main.scss */
+/* line 236, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 231, ../../scss/_main.scss */
+/* line 238, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 234, ../../scss/_main.scss */
+/* line 241, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
