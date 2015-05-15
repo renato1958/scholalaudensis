@@ -110,16 +110,9 @@ aside {
 
 .article-image {
   width: 100px;
-  height: 120px;
 
   &.landscape {
     width: 120px;
-    height: 100px;
-  }
-
-  &.squared {
-    width: 120px;
-    height: 120px;
   }
 }
 

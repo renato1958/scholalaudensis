@@ -178,18 +178,11 @@ aside {
 }
 
 .article-image {
-  height: 120px;
   width: 100px;
   vertical-align: top;
 
   &.landscape {
-    height: 100px;
     width: 120px;
-  }
-
-  &.squared {
-    width: 120px;
-    height: 120px;
   }
 }
 
