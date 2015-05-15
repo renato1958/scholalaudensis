@@ -111,30 +111,23 @@ aside p, aside h3, aside li {
 /* line 111, ../../scss/_main.scss */
 .article-image {
   width: 100px;
-  height: 120px;
 }
-/* line 115, ../../scss/_main.scss */
+/* line 114, ../../scss/_main.scss */
 .article-image.landscape {
   width: 120px;
-  height: 100px;
-}
-/* line 120, ../../scss/_main.scss */
-.article-image.squared {
-  width: 120px;
-  height: 120px;
 }
 
-/* line 126, ../../scss/_main.scss */
+/* line 119, ../../scss/_main.scss */
 .left {
   float: left;
   margin: 0.375rem 0.625rem 0.625rem 0;
 }
-/* line 130, ../../scss/_main.scss */
+/* line 123, ../../scss/_main.scss */
 .center .left {
   margin-left: 1.25rem;
 }
 
-/* line 135, ../../scss/_main.scss */
+/* line 128, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   font-weight: bold;
@@ -144,14 +137,14 @@ aside p, aside h3, aside li {
   text-align: center;
 }
 
-/* line 144, ../../scss/_main.scss */
+/* line 137, ../../scss/_main.scss */
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 0.9375rem 0;
 }
 
-/* line 150, ../../scss/_main.scss */
+/* line 143, ../../scss/_main.scss */
 .role-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -159,30 +152,30 @@ aside p, aside h3, aside li {
   margin-top: 0.9375rem;
 }
 
-/* line 158, ../../scss/_main.scss */
+/* line 151, ../../scss/_main.scss */
 .lista-cantori .role-title, .lista-cantori p {
   text-align: center;
 }
 
-/* line 164, ../../scss/_main.scss */
+/* line 157, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 169, ../../scss/_main.scss */
+/* line 162, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 173, ../../scss/_main.scss */
+/* line 166, ../../scss/_main.scss */
 .center .lista-cantori p {
   padding-left: 1.25rem;
 }
 
-/* line 180, ../../scss/_main.scss */
+/* line 173, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 184, ../../scss/_main.scss */
+/* line 177, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
@@ -191,24 +184,24 @@ aside p, aside h3, aside li {
   margin: 0 auto 1.25rem auto;
 }
 
-/* line 192, ../../scss/_main.scss */
+/* line 185, ../../scss/_main.scss */
 .eventi {
   display: table;
   width: 100%;
   margin-bottom: 3.75rem;
 }
 
-/* line 198, ../../scss/_main.scss */
+/* line 191, ../../scss/_main.scss */
 .evento, .evento-concerto {
   display: table-row;
 }
 
-/* line 202, ../../scss/_main.scss */
+/* line 195, ../../scss/_main.scss */
 .evento-concerto {
   background-color: #eee;
 }
 
-/* line 207, ../../scss/_main.scss */
+/* line 200, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
@@ -216,7 +209,7 @@ aside p, aside h3, aside li {
   border-collapse: collapse;
 }
 
-/* line 214, ../../scss/_main.scss */
+/* line 207, ../../scss/_main.scss */
 .data-evento {
   border-right: none;
   text-align: center;
@@ -225,30 +218,30 @@ aside p, aside h3, aside li {
   width: 25%;
 }
 
-/* line 223, ../../scss/_main.scss */
+/* line 216, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
 
-/* line 228, ../../scss/_main.scss */
+/* line 221, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 232, ../../scss/_main.scss */
+/* line 225, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 236, ../../scss/_main.scss */
+/* line 229, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 238, ../../scss/_main.scss */
+/* line 231, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 241, ../../scss/_main.scss */
+/* line 234, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
