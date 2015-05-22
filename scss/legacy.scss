@@ -223,12 +223,19 @@ aside {
   }
 
   .lista-cantori {
-    .role-title, p {
+    .role-title {
       text-align: left;
     }
 
     p {
       padding-left: 20px;
+      text-align: left;
+    }
+
+    .curriculum {
+      p {
+        text-align: justify;
+      }
     }
   }
 }

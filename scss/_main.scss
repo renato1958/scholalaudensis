@@ -148,8 +148,16 @@ aside {
 }
 
 .lista-cantori {
-  .role-title, p {
+  .role-title {
     text-align: center;
+  }
+
+  .curriculum {
+    margin-bottom: rem-calc(20);
+    
+    p {
+      text-align: justify !important;
+    }
   }
 }
 

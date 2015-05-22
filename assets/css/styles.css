@@ -153,29 +153,37 @@ aside p, aside h3, aside li {
 }
 
 /* line 151, ../../scss/_main.scss */
-.lista-cantori .role-title, .lista-cantori p {
+.lista-cantori .role-title {
   text-align: center;
 }
+/* line 155, ../../scss/_main.scss */
+.lista-cantori .curriculum {
+  margin-bottom: 1.25rem;
+}
+/* line 158, ../../scss/_main.scss */
+.lista-cantori .curriculum p {
+  text-align: justify !important;
+}
 
-/* line 157, ../../scss/_main.scss */
+/* line 165, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 162, ../../scss/_main.scss */
+/* line 170, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 166, ../../scss/_main.scss */
+/* line 174, ../../scss/_main.scss */
 .center .lista-cantori p {
   padding-left: 1.25rem;
 }
 
-/* line 173, ../../scss/_main.scss */
+/* line 181, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 177, ../../scss/_main.scss */
+/* line 185, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
@@ -184,24 +192,24 @@ aside p, aside h3, aside li {
   margin: 0 auto 1.25rem auto;
 }
 
-/* line 185, ../../scss/_main.scss */
+/* line 193, ../../scss/_main.scss */
 .eventi {
   display: table;
   width: 100%;
   margin-bottom: 3.75rem;
 }
 
-/* line 191, ../../scss/_main.scss */
+/* line 199, ../../scss/_main.scss */
 .evento, .evento-concerto {
   display: table-row;
 }
 
-/* line 195, ../../scss/_main.scss */
+/* line 203, ../../scss/_main.scss */
 .evento-concerto {
   background-color: #eee;
 }
 
-/* line 200, ../../scss/_main.scss */
+/* line 208, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
@@ -209,7 +217,7 @@ aside p, aside h3, aside li {
   border-collapse: collapse;
 }
 
-/* line 207, ../../scss/_main.scss */
+/* line 215, ../../scss/_main.scss */
 .data-evento {
   border-right: none;
   text-align: center;
@@ -218,30 +226,30 @@ aside p, aside h3, aside li {
   width: 25%;
 }
 
-/* line 216, ../../scss/_main.scss */
+/* line 224, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
 
-/* line 221, ../../scss/_main.scss */
+/* line 229, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 225, ../../scss/_main.scss */
+/* line 233, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 229, ../../scss/_main.scss */
+/* line 237, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 231, ../../scss/_main.scss */
+/* line 239, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 234, ../../scss/_main.scss */
+/* line 242, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
