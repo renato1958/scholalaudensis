@@ -224,6 +224,11 @@ aside {
   p {
     margin-bottom: 0;
   }
+
+  ul, li, a {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 .event-name {
