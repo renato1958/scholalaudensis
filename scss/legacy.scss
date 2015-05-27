@@ -291,10 +291,28 @@ aside {
   p {
     margin-bottom: 0;
   }
+
+  .clearing-links {
+    margin-top: 16px;
+
+    li {
+      display: inline;
+
+      a {
+        font-style: italic;
+        text-decoration: none;
+      }
+    }
+  }
+
 }
 
 .event-name {
   font-style: italic;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .bigger {

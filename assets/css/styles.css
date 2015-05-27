@@ -235,26 +235,38 @@ aside p, aside h3, aside li {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+/* line 233, ../../scss/_main.scss */
+.event-block .clearing-links {
+  margin-top: 1rem;
+}
+/* line 236, ../../scss/_main.scss */
+.event-block .clearing-links li {
+  display: inline;
+}
+/* line 239, ../../scss/_main.scss */
+.event-block .clearing-links li a {
+  font-style: italic;
+}
 
-/* line 234, ../../scss/_main.scss */
+/* line 246, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 238, ../../scss/_main.scss */
+/* line 250, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 242, ../../scss/_main.scss */
+/* line 254, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 244, ../../scss/_main.scss */
+/* line 256, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 247, ../../scss/_main.scss */
+/* line 259, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
