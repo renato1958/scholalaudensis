@@ -745,36 +745,53 @@ aside p, aside h3, aside li {
 .event-block p {
   margin-bottom: 0;
 }
+/* line 295, ../../scss/legacy.scss */
+.event-block .clearing-links {
+  margin-top: 16px;
+}
+/* line 298, ../../scss/legacy.scss */
+.event-block .clearing-links li {
+  display: inline;
+}
+/* line 301, ../../scss/legacy.scss */
+.event-block .clearing-links li a {
+  font-style: italic;
+  text-decoration: none;
+}
 
-/* line 296, ../../scss/legacy.scss */
+/* line 310, ../../scss/legacy.scss */
 .event-name {
   font-style: italic;
 }
+/* line 313, ../../scss/legacy.scss */
+.event-name a {
+  text-decoration: none;
+}
 
-/* line 300, ../../scss/legacy.scss */
+/* line 318, ../../scss/legacy.scss */
 .bigger {
   width: 300px;
 }
 
-/* line 304, ../../scss/legacy.scss */
+/* line 322, ../../scss/legacy.scss */
 .clear {
   clear: both;
 }
 
-/* line 308, ../../scss/legacy.scss */
+/* line 326, ../../scss/legacy.scss */
 .scheda {
   margin-bottom: 20px;
 }
-/* line 310, ../../scss/legacy.scss */
+/* line 328, ../../scss/legacy.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 313, ../../scss/legacy.scss */
+/* line 331, ../../scss/legacy.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
 
-/* line 320, ../../scss/legacy.scss */
+/* line 338, ../../scss/legacy.scss */
 .clearing-thumbs {
   list-style-type: none;
   padding-left: 0;
