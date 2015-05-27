@@ -229,6 +229,18 @@ aside {
     margin-bottom: 0;
     padding-bottom: 0;
   }
+
+  .clearing-links {
+    margin-top: 1rem;
+
+    li {
+      display: inline;
+
+      a {
+        font-style: italic;
+      }
+    }
+  }
 }
 
 .event-name {
