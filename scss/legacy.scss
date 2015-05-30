@@ -299,8 +299,18 @@ aside {
     li {
       display: inline;
 
+      &:first-child {
+        margin-right: 0;
+        padding-right: 10px;
+        border-right: 1px solid #008cba;
+      }
+
+      &:nth-child(2) {
+        margin-left: 0;
+        padding-left: 10px;
+      }
+
       a {
-        font-style: italic;
         text-decoration: none;
       }
     }
