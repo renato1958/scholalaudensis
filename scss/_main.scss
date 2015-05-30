@@ -152,9 +152,7 @@ aside {
     text-align: center;
   }
 
-  .curriculum {
-    margin-bottom: rem-calc(20);
-    
+  .curriculum {    
     p {
       text-align: justify !important;
     }
@@ -172,10 +170,11 @@ aside {
     }
 
     p {
-      padding-left: rem-calc(20);
+      margin-left: rem-calc(20);
     }
   }
 }
+
 
 // hr
 .site-bottom-hr {
@@ -187,7 +186,7 @@ aside {
   height: 0;
   width: 40%;
   border: 1px solid #929292;
-  margin: 0 auto rem-calc(20) auto;
+  margin: rem-calc(30) auto;
 }
 
 .eventi {
