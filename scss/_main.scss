@@ -235,8 +235,14 @@ aside {
     li {
       display: inline;
 
-      a {
-        font-style: italic;
+      &:last-child {
+        padding-left: rem-calc(10);
+      }
+
+      &:first-child {
+        padding-right: rem-calc(10);
+        margin-right: 0;
+        border-right: 1px solid #008cba;
       }
     }
   }
