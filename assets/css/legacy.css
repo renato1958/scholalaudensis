@@ -705,26 +705,27 @@ aside p, aside h3, aside li {
   width: 40%;
   height: 0;
   border: 1px solid #929292;
+  margin: 35px auto;
 }
 
-/* line 260, ../../scss/legacy.scss */
+/* line 261, ../../scss/legacy.scss */
 .eventi {
   display: table;
   width: 100%;
   margin-bottom: 60px;
 }
 
-/* line 266, ../../scss/legacy.scss */
+/* line 267, ../../scss/legacy.scss */
 .evento, .evento-concerto {
   display: table-row;
 }
 
-/* line 270, ../../scss/legacy.scss */
+/* line 271, ../../scss/legacy.scss */
 .evento-concerto {
   background-color: #eee;
 }
 
-/* line 275, ../../scss/legacy.scss */
+/* line 276, ../../scss/legacy.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 12px;
@@ -732,7 +733,7 @@ aside p, aside h3, aside li {
   border-collapse: collapse;
 }
 
-/* line 282, ../../scss/legacy.scss */
+/* line 283, ../../scss/legacy.scss */
 .data-evento {
   border-right: none;
   text-align: center;
@@ -741,57 +742,57 @@ aside p, aside h3, aside li {
   width: 25%;
 }
 
-/* line 291, ../../scss/legacy.scss */
+/* line 292, ../../scss/legacy.scss */
 .event-block p {
   margin-bottom: 0;
 }
-/* line 295, ../../scss/legacy.scss */
+/* line 296, ../../scss/legacy.scss */
 .event-block .clearing-links {
   margin-top: 16px;
 }
-/* line 298, ../../scss/legacy.scss */
+/* line 299, ../../scss/legacy.scss */
 .event-block .clearing-links li {
   display: inline;
 }
-/* line 301, ../../scss/legacy.scss */
+/* line 302, ../../scss/legacy.scss */
 .event-block .clearing-links li a {
   font-style: italic;
   text-decoration: none;
 }
 
-/* line 310, ../../scss/legacy.scss */
+/* line 311, ../../scss/legacy.scss */
 .event-name {
   font-style: italic;
 }
-/* line 313, ../../scss/legacy.scss */
+/* line 314, ../../scss/legacy.scss */
 .event-name a {
   text-decoration: none;
 }
 
-/* line 318, ../../scss/legacy.scss */
+/* line 319, ../../scss/legacy.scss */
 .bigger {
   width: 300px;
 }
 
-/* line 322, ../../scss/legacy.scss */
+/* line 323, ../../scss/legacy.scss */
 .clear {
   clear: both;
 }
 
-/* line 326, ../../scss/legacy.scss */
+/* line 327, ../../scss/legacy.scss */
 .scheda {
   margin-bottom: 20px;
 }
-/* line 328, ../../scss/legacy.scss */
+/* line 329, ../../scss/legacy.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 331, ../../scss/legacy.scss */
+/* line 332, ../../scss/legacy.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
 
-/* line 338, ../../scss/legacy.scss */
+/* line 339, ../../scss/legacy.scss */
 .clearing-thumbs {
   list-style-type: none;
   padding-left: 0;
