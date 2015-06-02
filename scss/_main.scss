@@ -190,36 +190,44 @@ aside {
 }
 
 .eventi {
-  display: table;
   width: 100%;
   margin-bottom: rem-calc(60);
 }
 
-.evento {
-  display: table-row;
+.event-container {
+  width: 100%;
+  border: 1px solid #929292;
+  display: table;
+  margin-bottom: rem-calc(40);
 }
 
-.evento-concerto {
-  @extend .evento;
+.evento {
+  display: table-row;
+  width: 100%;
   background-color: #eee;
+}
+
+.evento-trascorso {
+  @extend .evento;
+  background-color: white;
 }
 
 .data-evento, .event-block {
   display: table-cell;
   padding: rem-calc(12);
-  border: 1px solid #929292;
-  border-collapse: collapse;
 }
 
 .data-evento {
-  border-right: none;
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  border-right: 1px solid #929292;
   width: 25%;
 }
 
 .event-block {
+  width: 75%;
+
   p {
     margin-bottom: 0;
   }
