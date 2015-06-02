@@ -190,85 +190,96 @@ aside p, aside h3, aside li {
 
 /* line 192, ../../scss/_main.scss */
 .eventi {
-  display: table;
   width: 100%;
   margin-bottom: 3.75rem;
 }
 
-/* line 198, ../../scss/_main.scss */
-.evento, .evento-concerto {
-  display: table-row;
+/* line 197, ../../scss/_main.scss */
+.event-container {
+  width: 100%;
+  border: 1px solid #929292;
+  display: table;
+  margin-bottom: 2.5rem;
 }
 
-/* line 202, ../../scss/_main.scss */
-.evento-concerto {
+/* line 204, ../../scss/_main.scss */
+.evento, .evento-trascorso {
+  display: table-row;
+  width: 100%;
   background-color: #eee;
 }
 
-/* line 207, ../../scss/_main.scss */
+/* line 210, ../../scss/_main.scss */
+.evento-trascorso {
+  background-color: white;
+}
+
+/* line 215, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
-  border: 1px solid #929292;
-  border-collapse: collapse;
 }
 
-/* line 214, ../../scss/_main.scss */
+/* line 220, ../../scss/_main.scss */
 .data-evento {
-  border-right: none;
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  border-right: 1px solid #929292;
   width: 25%;
 }
 
-/* line 223, ../../scss/_main.scss */
+/* line 228, ../../scss/_main.scss */
+.event-block {
+  width: 75%;
+}
+/* line 231, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
-/* line 227, ../../scss/_main.scss */
+/* line 235, ../../scss/_main.scss */
 .event-block ul, .event-block li, .event-block a {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 232, ../../scss/_main.scss */
+/* line 240, ../../scss/_main.scss */
 .event-block .clearing-links {
   margin-top: 1rem;
 }
-/* line 235, ../../scss/_main.scss */
+/* line 243, ../../scss/_main.scss */
 .event-block .clearing-links li {
   display: inline;
 }
-/* line 238, ../../scss/_main.scss */
+/* line 246, ../../scss/_main.scss */
 .event-block .clearing-links li:last-child {
   padding-left: 0.625rem;
 }
-/* line 242, ../../scss/_main.scss */
+/* line 250, ../../scss/_main.scss */
 .event-block .clearing-links li:first-child {
   padding-right: 0.625rem;
   margin-right: 0;
   border-right: 1px solid #008cba;
 }
 
-/* line 251, ../../scss/_main.scss */
+/* line 259, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 255, ../../scss/_main.scss */
+/* line 263, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 259, ../../scss/_main.scss */
+/* line 267, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 261, ../../scss/_main.scss */
+/* line 269, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 264, ../../scss/_main.scss */
+/* line 272, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
