@@ -109,7 +109,9 @@ aside {
 }
 
 .article-image {
-  width: 100px;
+  &.portrait {
+    width: 100px;
+  }
 
   &.landscape {
     width: 120px;
@@ -122,6 +124,10 @@ aside {
 
   .center & {
     margin-left: rem-calc(20);
+  }
+
+  &.standout {
+    width: 120px;
   }
 }
 
