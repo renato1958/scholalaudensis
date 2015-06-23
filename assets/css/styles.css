@@ -132,6 +132,11 @@ aside p, aside h3, aside li {
 }
 
 /* line 134, ../../scss/_main.scss */
+.no-center {
+  margin-left: 0 !important;
+}
+
+/* line 139, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   font-weight: bold;
@@ -141,14 +146,14 @@ aside p, aside h3, aside li {
   text-align: center;
 }
 
-/* line 143, ../../scss/_main.scss */
+/* line 148, ../../scss/_main.scss */
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 0.9375rem 0;
 }
 
-/* line 149, ../../scss/_main.scss */
+/* line 154, ../../scss/_main.scss */
 .role-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -156,34 +161,34 @@ aside p, aside h3, aside li {
   margin-top: 0.9375rem;
 }
 
-/* line 157, ../../scss/_main.scss */
+/* line 162, ../../scss/_main.scss */
 .lista-cantori .role-title {
   text-align: center;
 }
-/* line 162, ../../scss/_main.scss */
+/* line 167, ../../scss/_main.scss */
 .lista-cantori .curriculum p {
   text-align: justify !important;
 }
 
-/* line 169, ../../scss/_main.scss */
+/* line 174, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 174, ../../scss/_main.scss */
+/* line 179, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 178, ../../scss/_main.scss */
+/* line 183, ../../scss/_main.scss */
 .center .lista-cantori p {
   margin-left: 1.25rem;
 }
 
-/* line 186, ../../scss/_main.scss */
+/* line 191, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 190, ../../scss/_main.scss */
+/* line 195, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
@@ -192,13 +197,13 @@ aside p, aside h3, aside li {
   margin: 1.875rem auto;
 }
 
-/* line 198, ../../scss/_main.scss */
+/* line 203, ../../scss/_main.scss */
 .eventi {
   width: 100%;
   margin-bottom: 3.75rem;
 }
 
-/* line 203, ../../scss/_main.scss */
+/* line 208, ../../scss/_main.scss */
 .event-container {
   width: 100%;
   border: 1px solid #929292;
@@ -206,25 +211,25 @@ aside p, aside h3, aside li {
   margin-bottom: 2.5rem;
 }
 
-/* line 210, ../../scss/_main.scss */
+/* line 215, ../../scss/_main.scss */
 .evento, .evento-trascorso {
   display: table-row;
   width: 100%;
   background-color: #eee;
 }
 
-/* line 216, ../../scss/_main.scss */
+/* line 221, ../../scss/_main.scss */
 .evento-trascorso {
   background-color: white;
 }
 
-/* line 221, ../../scss/_main.scss */
+/* line 226, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
 }
 
-/* line 226, ../../scss/_main.scss */
+/* line 231, ../../scss/_main.scss */
 .data-evento {
   text-align: center;
   vertical-align: middle;
@@ -233,57 +238,57 @@ aside p, aside h3, aside li {
   width: 25%;
 }
 
-/* line 234, ../../scss/_main.scss */
+/* line 239, ../../scss/_main.scss */
 .event-block {
   width: 75%;
 }
-/* line 237, ../../scss/_main.scss */
+/* line 242, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
-/* line 241, ../../scss/_main.scss */
+/* line 246, ../../scss/_main.scss */
 .event-block ul, .event-block li, .event-block a {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 246, ../../scss/_main.scss */
+/* line 251, ../../scss/_main.scss */
 .event-block .clearing-links {
   margin-top: 1rem;
 }
-/* line 249, ../../scss/_main.scss */
+/* line 254, ../../scss/_main.scss */
 .event-block .clearing-links li {
   display: inline;
 }
-/* line 252, ../../scss/_main.scss */
+/* line 257, ../../scss/_main.scss */
 .event-block .clearing-links li:last-child {
   padding-left: 0.625rem;
 }
-/* line 256, ../../scss/_main.scss */
+/* line 261, ../../scss/_main.scss */
 .event-block .clearing-links li:first-child {
   padding-right: 0.625rem;
   margin-right: 0;
   border-right: 1px solid #008cba;
 }
 
-/* line 265, ../../scss/_main.scss */
+/* line 270, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 269, ../../scss/_main.scss */
+/* line 274, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 273, ../../scss/_main.scss */
+/* line 278, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 275, ../../scss/_main.scss */
+/* line 280, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 278, ../../scss/_main.scss */
+/* line 283, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
