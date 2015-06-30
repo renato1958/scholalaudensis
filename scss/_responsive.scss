@@ -32,6 +32,19 @@
     background-color: white;
     margin-left: 5%;
   }
+
+  .social-icons-container {
+    margin-top: rem-calc(-3)
+  }
+
+  .social-icon {
+    width: rem-calc(34.2857143);
+    height: rem-calc(34.2857143);
+
+    .no-svg & {
+      background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-m.png);
+    }
+  }
 }
 
 @media #{$large-up} {
