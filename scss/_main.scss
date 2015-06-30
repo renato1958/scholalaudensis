@@ -285,3 +285,34 @@ aside {
     }
   }
 }
+
+.social-icons-container {
+  margin-top: rem-calc(-25);
+}
+
+.social-icon {
+  display: inline-block;
+  width: rem-calc(22.8571429);
+  height: rem-calc(22.8571429);
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg);
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  -webkit-transition: outline .5s linear;
+  -moz-transition: outline .5s linear;
+  transition: outline .5s linear;
+
+  &:hover, &:focus {
+    outline: rgba(0, 140, 186, .75) solid 2px;
+  }
+
+  .no-svg & {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png)
+  }
+
+
+}
