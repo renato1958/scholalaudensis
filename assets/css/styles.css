@@ -293,6 +293,37 @@ aside p, aside h3, aside li {
   font-weight: bold;
 }
 
+/* line 289, ../../scss/_main.scss */
+.social-icons-container {
+  margin-top: -1.5625rem;
+}
+
+/* line 293, ../../scss/_main.scss */
+.social-icon {
+  display: inline-block;
+  width: 1.42857rem;
+  height: 1.42857rem;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg);
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  -webkit-transition: outline .5s linear;
+  -moz-transition: outline .5s linear;
+  transition: outline .5s linear;
+}
+/* line 309, ../../scss/_main.scss */
+.social-icon:hover, .social-icon:focus {
+  outline: rgba(0, 140, 186, 0.75) solid 2px;
+}
+/* line 313, ../../scss/_main.scss */
+.no-svg .social-icon {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png);
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 3, ../../scss/_responsive.scss */
   .logo-grande {
@@ -327,36 +358,51 @@ aside p, aside h3, aside li {
     background-color: white;
     margin-left: 5%;
   }
+
+  /* line 36, ../../scss/_responsive.scss */
+  .social-icons-container {
+    margin-top: -0.1875rem;
+  }
+
+  /* line 40, ../../scss/_responsive.scss */
+  .social-icon {
+    width: 2.14286rem;
+    height: 2.14286rem;
+  }
+  /* line 44, ../../scss/_responsive.scss */
+  .no-svg .social-icon {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-m.png);
+  }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 38, ../../scss/_responsive.scss */
+  /* line 51, ../../scss/_responsive.scss */
   body, html {
     margin-top: 0.9375rem;
   }
 
-  /* line 42, ../../scss/_responsive.scss */
+  /* line 55, ../../scss/_responsive.scss */
   .bigger {
     width: 18.75rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 48, ../../scss/_responsive.scss */
+  /* line 61, ../../scss/_responsive.scss */
   .bigger {
     width: 13.75rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 54, ../../scss/_responsive.scss */
+  /* line 67, ../../scss/_responsive.scss */
   p {
     font-size: 1rem;
   }
 
-  /* line 58, ../../scss/_responsive.scss */
+  /* line 71, ../../scss/_responsive.scss */
   .increase-height {
     height: 75rem;
   }
 
-  /* line 62, ../../scss/_responsive.scss */
+  /* line 75, ../../scss/_responsive.scss */
   .bigger {
     width: 9.375rem;
   }

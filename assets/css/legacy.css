@@ -819,3 +819,23 @@ aside p, aside h3, aside li {
   list-style-type: none;
   padding-left: 0;
 }
+
+/* line 361, ../../scss/legacy.scss */
+.social-icons-container {
+  margin-top: rem-calc(-35);
+}
+
+/* line 365, ../../scss/legacy.scss */
+.social-icon {
+  display: inline-block;
+  width: rem-calc(34.28571);
+  height: rem-calc(34.28571);
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-m.png);
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
