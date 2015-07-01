@@ -822,14 +822,14 @@ aside p, aside h3, aside li {
 
 /* line 361, ../../scss/legacy.scss */
 .social-icons-container {
-  margin-top: rem-calc(-35);
+  margin-top: 10px;
 }
 
 /* line 365, ../../scss/legacy.scss */
 .social-icon {
   display: inline-block;
-  width: rem-calc(34.28571);
-  height: rem-calc(34.28571);
+  width: 30px;
+  height: 30px;
   float: right;
   white-space: nowrap;
   overflow: hidden;
