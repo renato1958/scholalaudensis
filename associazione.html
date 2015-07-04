@@ -1,14 +1,12 @@
 <!doctype html>
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="it"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="it"> <!--<![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
 				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Schola Gregoriana Laudensis | L'Associazione</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="La Schola Gregoriana Laudensis è associazione senza fini lucrativi. Direttore: Giovanni Bianchi. Presidente: Don Giovanni Versetti. Tesoriere: Franco Muti.">
-    <meta name="keywords" content="canto gregoriano, musica gregoriana, alternatim, neumi, schola gregoriana laudensis, Giovanni Bianchi, organo, monodie, musica medievale">
-    <meta name="robots" contents="index,follow">    
+				<meta name="apple-mobile-web-app-capable" content="yes">
 						
     <!--[if (gt IE 8) | (IEMobile)]>-->
     <link rel="stylesheet" href="assets/css/foundation.css">
@@ -28,27 +26,28 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
+    <meta name="theme-color" content="#ffffff"> 
+   
     <script src="components/modernizr/modernizr.js"></script>
 
   </head>
   <body>
     <!--[if lt IE 9]>
-    <div id="browsehappy"><p>Il tuo browser è <strong>decisamente obsoleto...</strong>. Per favore, <a href="http://browsehappy.com/">aggiorna il tuo browser</a> per una migliore esperienza di navigazione.</p>
-    <p>Questo sito fornisce pieno supporto ai browsers moderni, un minimo supporto a Internet Explorer 8, ancora per poco, ma nessun supporto a versioni precedenti di Internet Explorer. A partire dal 01/06/2016 cesserà anche il supporto a IE 8. L'accessibilità del sito è comunque garantita.<a href="#" id="close-link">Chiudi avviso</a></p></div>
+    <div id="browsehappy"><p>Il tuo browser &egrave; <strong>decisamente obsoleto...</strong>. Per favore, <a href="http://browsehappy.com/">aggiorna il tuo browser</a> per una migliore esperienza di navigazione.</p>
+    <p>Questo sito fornisce pieno supporto ai browsers moderni, un minimo supporto a Internet Explorer 8, ma nessun supporto a versioni precedenti di Internet Explorer. L'accessibilit&agrave; del sito &egrave; comunque garantita.<a href="#" id="close-link">Chiudi avviso</a></p></div>
     <![endif]-->
     
     <div class="off-canvas-wrap" data-offcanvas>
         <div class="inner-wrap">
           <!--[if gt IE 8]>-->
-            <nav class="tab-bar show-for-small-only">
+            <nav class="tab-bar show-for-small-only fixed">
                 <section class="left-small">
                     <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
                 </section>
@@ -59,132 +58,84 @@
             </nav>
 
             <aside class="left-off-canvas-menu">
-                <ul class="off-canvas-list">
+                <ul class="off-canvas-list fixed">
                   <li><label>schola</label></li>
-                  <li><a href="schola.html">la schola</a></li>
+                  <li class="active"><a href="schola.html">la schola</a></li>
+                  <li><a href="associazione.html">l'associazione</a></li>                  
                   <li><a href="cantori.html">i cantori</a></li>                  
+                  <li><a href="#">eventi</a></li>                  
                   <li><a href="repertorio.html">repertorio</a></li>                  
-                  <li><a href="eventi.html">eventi</a></li>                  
-                  <li><a href="immagini.html">immagini</a></li>                  
+                  <li><a href="#">immagini</a></li>                  
                   <li><a href="#">incisioni</a></li>                  
                   <li><a href="#">stampa</a></li>                  
                   <li><a href="collaborazioni.html">collaborazioni</a></li>                  
-                  <li class="active"><a href="associazione.html">l'associazione</a></li>                  
-                  <li><a href="contatti.html">contatti</a></li>
-                  <li><a href="links.html">Links</a></li>
-                  <li><a href="corso.html">corso di canto</a></li>
+                  <li><a href="#">contatti</a></li>
+                  <li></li>                
+                  <li><a href="#">corso di canto</a></li>
                 </ul>
                 <img src="assets/img/cantori.png" alt="" class="cantori">                  
 
             </aside>
             <!--<![endif]-->
-            <header class="row hide-for-small site-header">
-              <div class="logo-piccolo-container medium-4 columns">
+            <header class="hide-for-small row site-header">
+              <div class="logo-piccolo-container medium-12-collapse columns">
                 <a href="index.html"><img src="assets/img/logo_piccolo.png" alt="logo schola laudensis" class="logo-piccolo"></a>
               </div>
             </header>
             
             <div class="content-wrapper row">
-            <div class="side-nav-wrapper medium-4 columns hide-for-small">
+            <div class="side-nav-wrapper medium-5 columns hide-for-small">
             <ul class="side-nav main-side-nav">
                   <li><a href="schola.html">la schola</a></li>
+                  <li class="active"><a href="associazione.html">l'associazione</a></li>                  
                   <li><a href="cantori.html">i cantori</a></li>                  
+                  <li><a href="#">eventi</a></li>                  
                   <li><a href="repertorio.html">repertorio</a></li>                  
-                  <li><a href="eventi.html">eventi</a></li>                  
-                  <li><a href="immagini.html">immagini</a></li>                  
+                  <li><a href="#">immagini</a></li>                  
                   <li><a href="#">incisioni</a></li>                  
                   <li><a href="#">stampa</a></li>                  
                   <li><a href="collaborazioni.html">collaborazioni</a></li>                  
-                  <li class="active"><a href="associazione.html">l'associazione</a></li>                  
-                  <li><a href="contatti.html">contatti</a></li>
-                  <li><a href="links.html">Links</a></li>
-                  <li class="last"><a href="corso.html">corso di canto</a></li>
+                  <li><a href="#">contatti</a></li>
+                  <li class="last"><a href="#">corso di canto</a></li>
             </ul>
             <img src="assets/img/cantori.png" class="cantori" alt="">
             </div><!-- .side-nav-wrapper -->
-            <main class="medium-8 columns">
-
-              <!-- SOCIAL ICONS -->
-              <div class="row">
-                <div class="social-icons-container small-12 columns">
-                  <a href="https://it-it.facebook.com/people/Schola-Gregoriana-Laudensis/100009802479309"><div class="social-icon">Facebook page</div></a>
-                </div>
+            <main class="medium-7 columns">
+              <div class="row page-title-container">
+                <h2 class="page-title small-12 columns">l'associazione</h2>
               </div>
-
+              <div class="articles">
               <div class="row">
-                <div class="page-title-container small-12 columns">
-                  <h2 class="page-title">l'associazione</h2>
-                </div>
-              </div>
-
-              <div class="row">
-                <article class="small-12 columns">
-                  <img src="assets/img/associazione.png" alt="logo associazione" class="article-image left landscape">
-                  <p>La Schola Gregoriana Laudensis è anche associazione senza fini lucrativi. La sua finalità è avvicinare la popolazione all’immenso patrimonio tramandatoci dalla tradizione cristiana attraverso la diffusione del repertorio gregoriano e della musica antica e medievale.</p> 
-
-                  <p>La riscoperta del canto gregoriano non è quindi il semplice recupero nostalgico di vecchie tradizioni, ma il risultato di una attenta ricerca che mira a ridare Unità, Funzionalità e Solennità al canto liturgico attraverso l’utilizzo della forma musicale che più di ogni altra parla di Identità cristiana.</p>
+                <article class="article-small medium-10 medium-centered small-uncentered columns">
+                  <h3 class="article-small-title">Don Giovanni Versetti <small>Presidente</small></h3>
+                  <img src="assets/img/versetti.png" alt="Don Giovanni Versetti">                  
+                  <p>Nato a Lodi nel 1936, Ordinato Sacerdote nel 1960. Ha prestato servizio in qualità di Coadiutore presso le Parrocchie di Postino di Dovera (Cr), Zelo Buon Persico (Lo) e presso la Parrocchia del Carmine di Lodi. E' stato Parroco di Marudo per undici anni e dal 1991 al 2006 è stato Parroco di Somaglia (Lo).</p>
+                  <p>Amante della musica sacra, ha sostenuto e guidato il Coro &quot;Silentium&quot; sin dalle sue origini. Attualmente riveste il ruolo di Assistente Parrocchiale presso la Parrocchia di Somaglia.</p>
                 </article>
               </div>
               <hr class="divider">
               <div class="row">
-                <article class="small-12 columns">
-                  <h3 class="article-title">Il Presidente - Don Giovanni Versetti</h3>
-                  <img src="assets/img/don_giovanni_versetti.png" alt="Don Giovanni Versetti" title="Don Giovanni Versetti" class="article-image left">                  
-                  <p>Nato a Lodi nel 1936, Ordinato Sacerdote nel 1960. Ha prestato servizio in qualità di Coadiutore presso le Parrocchie di Postino di Dovera (CR), Zelo Buon Persico (LO) e presso la Parrocchia del Carmine di Lodi. è stato Parroco di Marudo per undici anni e dal 1991 al 2006 è stato Parroco di Somaglia (LO). Attualmente riveste il ruolo di Assistente Parrocchiale presso la Parrocchia di Somaglia.</p>
-                  <p>Amante della musica sacra, ha sostenuto e guidato il Coro "Silentium" prima e la "Schola Gregoriana" poi.</p>
-                </article>
-              </div>
-              <hr class="divider">
-              <div class="row">
-                <article class="small-12 columns">
-                  <h3 class="article-title">Il Tesoriere - Franco Muti</h3>
-                  <img src="assets/img/franco_muti.png" alt="Franco Muti" title="Franco Muti" class="article-image left">
-                  <p>Nato a Lodi nel 1951, laureato in Economia e Commercio presso l'Università Cattolica del Sacro Cuore (Milano) nel 1976, ha conseguito il Diploma Accademico di Magistero in Scienze Religiose presso l'Istituto Superiore di Scienze Religiose (Facoltà Teologica) di Milano nel 1994, ed ha svolto per anni attività dirigenziale presso importanti istituti di credito. Ricopre attualmente la carica di Segretario e Tesoriere, occupandosi dei risvolti amministrativi e legali dell'Associazione "Coro Silentium" prima e della "Schola Gregoriana" poi, in costante collaborazione con altri consulenti del settore.</p>
+                <article class="article-small medium-10 medium-centered small-uncentered columns">
+                  <h3 class="article-small-title">Franco Muti <small>Tesoriere</small></h3>
+                  <img src="assets/img/muti.png" alt="Franco Muti">
+                  <p>Nato a Lodi nel 1951, laureato in Economia e Commercio presso l'Università Cattolica del Sacro Cuore (Milano) nel 1976, ha conseguito il Diploma Accademico di Magistero in Scienze Religiose presso l'Istituto Superiore di Scienze Religiose (Facoltà Teologica) di Milano nel 1994, ed ha svolto per anni attività dirigenziale presso importanti istituti di credito. Ricopre attualmente la carica di Segretario e Tesoriere, occupandosi dei risvolti amministrativi e legali dell'Associazione &quot;Coro Silentium&quot;, in costante collaborazione con altri consulenti del settore.</p>
                   <p>Congiuntamente al Direttore del Coro, si occupa dei rapporti con il pubblico e partecipa attivamente alla pianificazione degli eventi organizzati dal Coro.</p>                  
                 </article>
               </div>
               <hr class="divider">                
               <div class="row">
-                <article class="small-12 columns">
-                  <h3 class="article-title">Il Direttore - Giovanni Bianchi</h3>
-                  <!--[if gt ie 8]>-->
-                  <img data-interchange="[assets/img/giovanni_bianchi.png, (default)], [assets/img/giovanni_bianchi_retina.png, (retina)]" class="article-image left" alt="Giovanni Bianchi" title="Giovanni Bianchi">
-                  <!--<![endif]-->
-                  <noscript>
-                    <img src="assets/img/giovanni_bianchi.png" class="article-image left" alt="Giovanni Bianchi" title="Giovanni Bianchi">
-                  </noscript>
-                  <!--[if lt IE 9]>
-                  <img src="assets/img/giovanni_bianchi.png" class="article-image left" alt="Giovanni Bianchi" title="Giovanni Bianchi">
-                  <![endif]-->
-                  <p>Studioso di Organo, Clavicembalo e Canto gregoriano presso l’Associazione Musicale “F. Gaffurio” di Lodi sotto la guida del <a href="collaborazioni.html#ricci">Prof. M. Ricci</a>, dal 2000 al 2014 è stato direttore del Coro Silentium di Somaglia e della Schola Gregoriana Silentium.</p>
-                  <p>Nelle passate stagioni è stato solista dell’Ensemble Vocale Barocco dell’Associazione Musicale "F. Gaffurio" di Lodi.</p>
-                  <p>è titolare dell’Organo Biroldi della chiesa di S. Ilario Vescovo in Melegnanello (LO) ed organista presso la Chiesa di S. Francesco in Lodi.</p>                  
-                  <p>Nel 2015, unitamente ad alcuni cantori provenienti dalla Schola Gregoriana Silentium, fonda la Schola Gregoriana Laudensis  (con sede Presso la Chiesa di S. Francesco a Lodi) di cui cura la preparazione teorica e vocale promuovendone l’attività sia liturgica che concertistica.</p>
-                  <p>Attualmente è direttore del Corso di Canto Gregoriano che si tiene presso la chiesa di S. Francesco a Lodi, in Collaborazione con i Padri Barnabiti.</p>                  
+                <article class="article-small medium-10 medium-centered small-uncentered columns">
+                  <h3 class="article-small-title">Giovanni Bianchi <small>Direttore</small></h3>
+                  <img src="assets/img/bianchi.png" alt="Giovanni Bianchi">
+                  <p>Studioso di Organo, Clavicembalo e Canto gregoriano presso l’Associazione Musicale “F. Gaffurio” di Lodi, dal 2000 al 2014 è stato direttore del Coro Silentium di Somaglia e della Schola Gregoriana Silentium.</p>
+                  <p>Nel 2015, unitamente ad alcuni cantori provenienti dalla Schola gregoriana Silentium, fonda la Schola Gregoriana Laudensis  (con sede Presso la Chiesa di S. Francesco a Lodi) di cui cura la preparazione teorica e vocale promuovendone l’attività sia liturgica che concertistica.</p>
+                  <p>Attualmente è direttore del Corso di Canto Gregoriano che si tiene presso la chiesa di S. Francesco a Lodi, in Collaborazione con i Padri Barnabiti.</p>
+                  <p>Nelle passate stagioni è stato solista dell’Ensemble Vocale Barocco dell’Associazione Musicale “F. Gaffurio” di Lodi.</p>
+                  <p>E’ titolare dell’Organo Biroldi della chiesa di S. Ilario Vescovo in Melegnanello (LO) ed organista presso la Chiesa di S. Francesco in Lodi.</p>                  
                 </article>
               </div>
-              <hr class="divider">
-              <div class="row">
-                <aside class="small-12 columns panel">
-                  <h3 class="article-title">Articoli Tratti dallo Statuto</h3>
-                  <p>(Tratto dallo statuto depositato presso lo Studio Notarile del Dott. Piercarlo Mattea, Piazza della Vittoria 47, Lodi, il giorno 09/11/2004).</p>
-                  <p><strong>Art. 1 - Costituzione, denominazione e sede.</strong> è costituita l'Associazione Culturale denominata "Associazione Schola Gregoriana Laudensis" - Associazione senza fini di lucro, con sede in Somaglia, Piazza del Popolo, 1.</p>
-
-                  <p><strong>Art. 3 - Origine e collocazione.</strong> L'associazioone culturale denominata "Schola Gregoriana Laudensis" nasce da un lavoro di ricerca musicale cominciato presso la Parrocchia di Somaglia, nella convinzione che la musica sia un importante mezzo di comunicazione ed un insostituibile strumento di aggregazione.</p>
-
-                  <p><strong>Art. 4 - Finalità.</strong> L'Associazione "Schola Gregoriana Laudensis" persegue unicamente finalità di solidarietà sociale ed in particolare si propone la valorizzazione e la diffusione della cultura musicale ed in particolare del repertorio di musica sacra (...)</p>
-
-                  <p><strong>Art. 5 - Attività.</strong> L'Associazione "Schola Gregoriana Laudensis", per il raggiungimento dei suoi fini, intende promuovere varie attività, in particolare:</p>
-                  <ul class="list">
-                    <li>realizzare e proporre spettacoli, sia sul territorio nazionale che estero, allo scopo di diffondere l'esperienza e sostenere economicamente le iniziative formative e culturali dell'Associazione;</li>
-                    <li>Sostenere e finanziare attività culturali, formative ed educative nei riguardi dei più poveri, sia sul territorio nazionale che estero;</li>
-                    <li>Collaborare con persone, gruppi, enti pubblici e privati, enti locali ed istituti universitari, per lo svolgimento dei suddetti indirizzi operativi.</li>
-                  </ul>
-
-                  <p><strong>Art. 6 - I Soci.</strong> L'Associazione "Schola Gregoriana Laudensis" è destinata a quanti, compiuti i sedici anni di età ed interessati alla realizzazioni delle finalità istituzionali, ne condividono lo spirito e gli ideali, ne accettano lo Statuto ed osservano le disposizioni impartite dal Consiglio Direttivo.</p>
-                </aside>
-              </div>
                 
+              </div><!-- .articles -->
             </main>
             </div><!-- .content-wrapper.row -->
 
@@ -208,17 +159,5 @@
         return false;
       });
     </script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-62775779-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <!-- end Google Analytics -->
   </body>
 </html>
