@@ -439,67 +439,67 @@ th {
 /* line 4, ../../scss/legacy.scss */
 body {
   background-color: white;
-  font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 }
 
-/* line 10, ../../scss/legacy.scss */
-.schola-container {
-  width: 960px;
+/* line 9, ../../scss/legacy.scss */
+body, html {
+  font-size: 14px;
+}
+
+/* line 14, ../../scss/legacy.scss */
+.schola-container, #browsehappy {
+  width: 1080px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 16, ../../scss/legacy.scss */
+/* line 20, ../../scss/legacy.scss */
 .logo-grande {
   display: block;
   width: 499px;
-  margin: 200px auto 150px;
+  margin: 200px auto 230px;
 }
 
-/* line 22, ../../scss/legacy.scss */
+/* line 26, ../../scss/legacy.scss */
 .entry-link {
   display: block;
   text-align: center;
-  font-size: 27px;
+  font-size: 15px;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 8px;
 }
 
-/* line 31, ../../scss/legacy.scss */
+/* line 36, ../../scss/legacy.scss */
 .entry-link:link, .entry-link:visited, .entry-link:focus {
   color: #3a3a3a;
 }
 
-/* line 35, ../../scss/legacy.scss */
+/* line 40, ../../scss/legacy.scss */
 .entry-link:hover {
   color: #000;
 }
 
-/* line 40, ../../scss/legacy.scss */
+/* line 45, ../../scss/legacy.scss */
 #browsehappy {
-  width: 500px;
   text-align: justify;
   border: 2px solid #000;
-  background-color: #00f;
-  color: #fff;
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  z-index: 100;
+  background-color: gold;
+  color: black;
 }
 /* line 51, ../../scss/legacy.scss */
 #browsehappy p {
-  padding: 20px 20px 10px;
+  padding: 10px 20px;
 }
 /* line 55, ../../scss/legacy.scss */
 #browsehappy a, #browsehappy a:link, #browsehappy a:visited {
-  color: #aaa;
+  color: #00f;
 }
 /* line 58, ../../scss/legacy.scss */
 #browsehappy a:hover, #browsehappy a:link:hover, #browsehappy a:visited:hover {
-  color: #ddd;
+  color: #f00;
 }
 /* line 63, ../../scss/legacy.scss */
 #browsehappy #close-link {
@@ -509,141 +509,193 @@ body {
 /* line 69, ../../scss/legacy.scss */
 .inner-wrap {
   width: 1080px;
-  margin: 80px auto;
+  margin: 15px auto 20px;
 }
 
 /* line 74, ../../scss/legacy.scss */
 .site-header {
   width: 100%;
-  height: 52px;
+  height: 40px;
   background-color: #929292;
 }
 
 /* line 80, ../../scss/legacy.scss */
 .logo-piccolo-container {
-  height: 52px;
-  width: 378px;
+  height: 40px;
+  width: 306px;
   background-color: white;
   margin-left: 54px;
 }
 
 /* line 87, ../../scss/legacy.scss */
 .logo-piccolo {
-  height: 52px;
-  width: 378px;
+  display: block;
+  height: 40px;
+  width: 291px;
+  margin: 0 auto;
 }
 
-/* line 92, ../../scss/legacy.scss */
+/* line 94, ../../scss/legacy.scss */
 .content-wrapper {
   width: 100%;
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 97, ../../scss/legacy.scss */
+/* line 99, ../../scss/legacy.scss */
 .side-nav-wrapper {
-  width: 420px;
+  width: 330px;
   float: left;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
-/* line 103, ../../scss/legacy.scss */
+/* line 106, ../../scss/legacy.scss */
 .main-side-nav {
   display: block;
   padding: 40px 0;
   list-style-type: none;
 }
-/* line 108, ../../scss/legacy.scss */
+/* line 111, ../../scss/legacy.scss */
 .main-side-nav li {
   display: block;
-  padding-left: 20px;
+  padding-left: 22px;
   margin: 0 0 7px 0;
 }
-/* line 113, ../../scss/legacy.scss */
+/* line 116, ../../scss/legacy.scss */
 .main-side-nav li.last {
   padding-top: 20px;
 }
-/* line 117, ../../scss/legacy.scss */
+/* line 120, ../../scss/legacy.scss */
 .main-side-nav li.active a {
   color: #757575;
 }
-/* line 121, ../../scss/legacy.scss */
+/* line 124, ../../scss/legacy.scss */
 .main-side-nav li a {
   display: block;
   font-size: 14px;
+  font-weight: 700;
   padding: 7px 14px;
   text-decoration: none;
   text-transform: uppercase;
   color: #3a3a3a;
 }
-/* line 129, ../../scss/legacy.scss */
+/* line 133, ../../scss/legacy.scss */
 .main-side-nav li a:hover, .main-side-nav li a:focus {
   color: #757575;
 }
 
-/* line 136, ../../scss/legacy.scss */
+/* line 140, ../../scss/legacy.scss */
 main {
-  width: 600px;
+  width: 720px;
   float: right;
-  margin-right: 15px;
 }
 
-/* line 142, ../../scss/legacy.scss */
+/* line 145, ../../scss/legacy.scss */
 .cantori {
   display: block;
-  width: 378px;
-  margin: 20px auto 0;
-}
-
-/* line 148, ../../scss/legacy.scss */
-.articles {
-  padding-top: 40px;
+  width: 238px;
+  height: 171px;
+  margin: 20px 0 0;
 }
 
 /* line 152, ../../scss/legacy.scss */
 .page-title {
-  padding-top: 30px;
-  text-transform: uppercase;
-}
-
-/* line 158, ../../scss/legacy.scss */
-article p {
-  text-align: justify;
-}
-/* line 162, ../../scss/legacy.scss */
-article img {
-  float: left;
-  padding: 15px 10px 10px 15px;
-}
-
-/* line 167, ../../scss/legacy.scss */
-.article-title {
-  font-size: 20px;
   padding-top: 40px;
   text-transform: uppercase;
 }
 
-/* line 173, ../../scss/legacy.scss */
-.article-small {
-  width: 525px;
-  margin: 0 auto 20px auto;
-  padding: 0;
+/* line 157, ../../scss/legacy.scss */
+article {
+  width: 100%;
+  margin-bottom: 20px;
 }
-/* line 178, ../../scss/legacy.scss */
-.article-small p {
-  font-size: 14px;
+/* line 161, ../../scss/legacy.scss */
+article p {
+  text-align: justify;
   margin-bottom: 10px;
-  padding: 0 15px;
+}
+/* line 166, ../../scss/legacy.scss */
+article ul {
+  clear: both;
 }
 
-/* line 185, ../../scss/legacy.scss */
-.article-small-title {
+/* line 171, ../../scss/legacy.scss */
+aside {
+  @extends article;
+}
+/* line 175, ../../scss/legacy.scss */
+aside p, aside h3, aside li {
+  color: #555;
+}
+
+/* line 180, ../../scss/legacy.scss */
+.article-image {
+  width: 100px;
+  vertical-align: top;
+}
+/* line 184, ../../scss/legacy.scss */
+.article-image.landscape {
+  width: 120px;
+}
+
+/* line 189, ../../scss/legacy.scss */
+.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+/* line 193, ../../scss/legacy.scss */
+.center .left {
+  margin-left: 20px;
+}
+
+/* line 198, ../../scss/legacy.scss */
+.no-center {
+  margin-left: 0 !important;
+}
+
+/* line 202, ../../scss/legacy.scss */
+.article-title {
   font-size: 18px;
-  margin: 0;
-  padding: 10px 0 20px 15px;
+  margin: 40px 0 20px 0;
 }
 
-/* line 192, ../../scss/legacy.scss */
+/* line 207, ../../scss/legacy.scss */
+.role-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* line 215, ../../scss/legacy.scss */
+.lista-cantori .role-title, .lista-cantori p {
+  text-align: center;
+}
+/* line 219, ../../scss/legacy.scss */
+.lista-cantori p {
+  margin-bottom: 0;
+}
+
+/* line 225, ../../scss/legacy.scss */
+.center .article-title {
+  text-align: center;
+}
+/* line 230, ../../scss/legacy.scss */
+.center .lista-cantori .role-title {
+  text-align: left;
+}
+/* line 234, ../../scss/legacy.scss */
+.center .lista-cantori p {
+  padding-left: 20px;
+  text-align: left;
+}
+/* line 240, ../../scss/legacy.scss */
+.center .lista-cantori .curriculum p {
+  text-align: justify;
+}
+
+/* line 249, ../../scss/legacy.scss */
 .site-bottom-hr {
   display: block;
   width: 50%;
@@ -652,10 +704,138 @@ article img {
   margin: 80px auto 80px;
 }
 
-/* line 200, ../../scss/legacy.scss */
+/* line 257, ../../scss/legacy.scss */
 .divider {
   display: block;
   width: 40%;
   height: 0;
   border: 1px solid #929292;
+  margin: 35px auto;
+}
+
+/* line 265, ../../scss/legacy.scss */
+.eventi {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+/* line 270, ../../scss/legacy.scss */
+.event-container {
+  width: 100%;
+  border: 1px solid #929292;
+  display: table;
+  margin-bottom: 40px;
+}
+
+/* line 277, ../../scss/legacy.scss */
+.evento, .evento-trascorso {
+  display: table-row;
+  width: 100%;
+  background-color: #eee;
+}
+
+/* line 283, ../../scss/legacy.scss */
+.evento-trascorso {
+  background-color: white;
+}
+
+/* line 288, ../../scss/legacy.scss */
+.data-evento, .event-block {
+  display: table-cell;
+  padding: 12px;
+}
+
+/* line 293, ../../scss/legacy.scss */
+.data-evento {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  border-right: 1px solid #929292;
+  width: 25%;
+}
+
+/* line 301, ../../scss/legacy.scss */
+.event-block {
+  width: 75%;
+}
+/* line 304, ../../scss/legacy.scss */
+.event-block p {
+  margin-bottom: 0;
+}
+/* line 308, ../../scss/legacy.scss */
+.event-block ul, .event-block li, .event-block a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 313, ../../scss/legacy.scss */
+.event-block .clearing-links {
+  margin-top: 16px;
+}
+/* line 316, ../../scss/legacy.scss */
+.event-block .clearing-links li {
+  display: inline;
+}
+/* line 319, ../../scss/legacy.scss */
+.event-block .clearing-links li:last-child {
+  padding-left: 10px;
+}
+/* line 323, ../../scss/legacy.scss */
+.event-block .clearing-links li:first-child {
+  padding-right: 10px;
+  margin-right: 0;
+  border-right: 1px solid #008cba;
+}
+
+/* line 332, ../../scss/legacy.scss */
+.event-name {
+  font-style: italic;
+}
+
+/* line 336, ../../scss/legacy.scss */
+.bigger {
+  width: 300px;
+}
+
+/* line 340, ../../scss/legacy.scss */
+.clear {
+  clear: both;
+}
+
+/* line 344, ../../scss/legacy.scss */
+.scheda {
+  margin-bottom: 20px;
+}
+/* line 346, ../../scss/legacy.scss */
+.scheda p {
+  margin-bottom: 0;
+}
+/* line 349, ../../scss/legacy.scss */
+.scheda p:first-child {
+  font-weight: bold;
+}
+
+/* line 356, ../../scss/legacy.scss */
+.clearing-thumbs {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* line 361, ../../scss/legacy.scss */
+.social-icons-container {
+  margin-top: 10px;
+}
+
+/* line 365, ../../scss/legacy.scss */
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-m.png);
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }

@@ -51,8 +51,8 @@
 // a. Base
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// This is the default html and body font-size for the base rem value.
-   $rem-base: 16px;
+// This is the default html and body font-size for the base rem value
+// $rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "../components/foundation/scss/foundation/functions";
@@ -63,7 +63,7 @@
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
-   $base-font-size: 100%;
+// $base-font-size: 100%;
 
 // The $base-font-size is 100% while $base-line-height is 150%
 // $base-line-height: 150%;
@@ -89,13 +89,13 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-   $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+   $font-family-sans-serif: Helvetica, "Helvetica Neue", Verdana, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
 // $font-weight-normal: normal;
-// $font-weight-bold: bold;
+   $font-weight-bold: bold;
 
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
@@ -1154,9 +1154,9 @@ $include-html-global-classes: $include-html-classes;
 // $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
 // $side-nav-link-bg-hover: hsla(0, 0, 0, 0.025);
 // $side-nav-link-margin: 0;
-// $side-nav-link-padding: rem-calc(7 14);
-   $side-nav-font-size: rem-calc(16);
-// $side-nav-font-weight: $font-weight-normal;
+   $side-nav-link-padding: rem-calc(3.5 14);
+   $side-nav-font-size: rem-calc(14);
+   $side-nav-font-weight: 700;
 // $side-nav-font-weight-active: $side-nav-font-weight;
 // $side-nav-font-family: $body-font-family;
 // $side-nav-font-family-active: $side-nav-font-family;
