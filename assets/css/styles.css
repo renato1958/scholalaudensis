@@ -215,21 +215,25 @@ aside p, aside h3, aside li {
 .evento, .evento-trascorso {
   display: table-row;
   width: 100%;
+  background-color: #fff;
+}
+/* line 220, ../../scss/_main.scss */
+.evento.concerto, .concerto.evento-trascorso {
   background-color: #eee;
 }
 
-/* line 221, ../../scss/_main.scss */
+/* line 225, ../../scss/_main.scss */
 .evento-trascorso {
   background-color: white;
 }
 
-/* line 226, ../../scss/_main.scss */
+/* line 230, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
 }
 
-/* line 231, ../../scss/_main.scss */
+/* line 235, ../../scss/_main.scss */
 .data-evento {
   text-align: center;
   vertical-align: middle;
@@ -238,67 +242,67 @@ aside p, aside h3, aside li {
   width: 25%;
 }
 
-/* line 239, ../../scss/_main.scss */
+/* line 243, ../../scss/_main.scss */
 .event-block {
   width: 75%;
 }
-/* line 242, ../../scss/_main.scss */
+/* line 246, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
-/* line 246, ../../scss/_main.scss */
+/* line 250, ../../scss/_main.scss */
 .event-block ul, .event-block li, .event-block a {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 251, ../../scss/_main.scss */
+/* line 255, ../../scss/_main.scss */
 .event-block .clearing-links {
   margin-top: 1rem;
 }
-/* line 254, ../../scss/_main.scss */
+/* line 258, ../../scss/_main.scss */
 .event-block .clearing-links li {
   display: inline;
 }
-/* line 257, ../../scss/_main.scss */
+/* line 261, ../../scss/_main.scss */
 .event-block .clearing-links li:last-child {
   padding-left: 0.625rem;
 }
-/* line 261, ../../scss/_main.scss */
+/* line 265, ../../scss/_main.scss */
 .event-block .clearing-links li:first-child {
   padding-right: 0.625rem;
   margin-right: 0;
   border-right: 1px solid #008cba;
 }
 
-/* line 270, ../../scss/_main.scss */
+/* line 274, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 274, ../../scss/_main.scss */
+/* line 278, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 278, ../../scss/_main.scss */
+/* line 282, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 280, ../../scss/_main.scss */
+/* line 284, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 283, ../../scss/_main.scss */
+/* line 287, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
 
-/* line 289, ../../scss/_main.scss */
+/* line 293, ../../scss/_main.scss */
 .social-icons-container {
   margin-top: -1.5625rem;
 }
 
-/* line 293, ../../scss/_main.scss */
+/* line 297, ../../scss/_main.scss */
 .social-icon {
   display: inline-block;
   width: 1.42857rem;
@@ -315,11 +319,11 @@ aside p, aside h3, aside li {
   -moz-transition: outline .5s linear;
   transition: outline .5s linear;
 }
-/* line 309, ../../scss/_main.scss */
+/* line 313, ../../scss/_main.scss */
 .social-icon:hover, .social-icon:focus {
   outline: rgba(0, 140, 186, 0.75) solid 2px;
 }
-/* line 313, ../../scss/_main.scss */
+/* line 317, ../../scss/_main.scss */
 .no-svg .social-icon {
   background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png);
 }

@@ -277,12 +277,11 @@ aside {
 .evento {
   display: table-row;
   width: 100%;
-  background-color: #eee;
-}
-
-.evento-trascorso {
-  @extend .evento;
-  background-color: white;
+  background-color: #fff;
+  
+  &.concerto {
+      background-color: #eee;
+  }
 }
 
 .data-evento, .event-block {
