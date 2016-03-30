@@ -838,3 +838,23 @@ aside p, aside h3, aside li {
   background-position: 0 0;
   background-repeat: no-repeat;
 }
+
+/* line 378, ../../scss/legacy.scss */
+.no-video {
+  font-size: rem-calc(14);
+}
+/* line 381, ../../scss/legacy.scss */
+.no-video a {
+  color: blue;
+}
+
+/* line 386, ../../scss/legacy.scss */
+.video-label {
+  font-weight: normal;
+  font-style: italic;
+  color: #777;
+}
+/* line 391, ../../scss/legacy.scss */
+.video-label span {
+  font-weight: bold;
+}
