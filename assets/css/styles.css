@@ -417,4 +417,9 @@ aside p, aside h3, aside li {
   .bigger {
     width: 9.375rem;
   }
+
+  /* line 75, ../../scss/_responsive.scss */
+  .tab-bar {
+    margin-top: 1.40625rem;
+  }
 }
