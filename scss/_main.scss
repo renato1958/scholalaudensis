@@ -147,7 +147,6 @@ aside {
   margin-left: 0 !important;
 }
 
-
 .page-title {
   font-size: rem-calc(22);
   font-weight: bold;
@@ -329,6 +328,26 @@ aside {
   .no-svg & {
     background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png)
   }
+}
 
+video {
+    max-width: 100%;
+}
 
+.no-video {
+    font-size: rem-calc(14);
+    
+    a {
+        color: blue;
+    }
+}
+
+.video-label {
+    font-weight: normal;
+    font-style: italic;
+    color: #777;
+    
+    span {
+        font-weight: bold;
+    }
 }

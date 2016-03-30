@@ -374,3 +374,21 @@ aside {
   background-position: 0 0;
   background-repeat: no-repeat;
 }
+
+.no-video {
+    font-size: rem-calc(14);
+    
+    a {
+        color: blue;
+    }
+}
+
+.video-label {
+    font-weight: normal;
+    font-style: italic;
+    color: #777;
+    
+    span {
+        font-weight: bold;
+    }
+}
