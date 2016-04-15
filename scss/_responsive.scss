@@ -44,10 +44,6 @@
 }
 
 @media #{$large-up} {
-  body, html {
-    margin-top: rem-calc(15);
-  }
-
   .bigger {
     width: rem-calc(300);
   }
@@ -70,9 +66,5 @@
 
   .bigger {
     width: rem-calc(150);
-  }
-  
-  .off-canvas-wrap {
-    margin-top: rem-calc(22.5);
-  }
+  } 
 }
