@@ -50,6 +50,10 @@ body, html {
 }
 // FINE HOME PAGE
 
+.off-canvas-wrap {
+  margin-top: rem-calc(22.5);
+}
+
 .off-canvas-list {
   li {
     &:last-child {
