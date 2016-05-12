@@ -315,11 +315,11 @@ aside {
     li {
       display: inline;
 
-      &:last-child {
+      &:not(:first-child) {
         padding-left: 10px;
       }
 
-      &:first-child {
+      &:not(:last-child) {
         padding-right: 10px;
         margin-right: 0;
         border-right: 1px solid #008cba;
