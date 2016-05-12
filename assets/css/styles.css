@@ -281,11 +281,11 @@ aside p, aside h3, aside li {
   display: inline;
 }
 /* line 276, ../../scss/_main.scss */
-.event-block .clearing-links li:last-child {
+.event-block .clearing-links li:not(:first-child) {
   padding-left: 0.625rem;
 }
 /* line 280, ../../scss/_main.scss */
-.event-block .clearing-links li:first-child {
+.event-block .clearing-links li:not(:last-child) {
   padding-right: 0.625rem;
   margin-right: 0;
   border-right: 1px solid #008cba;
