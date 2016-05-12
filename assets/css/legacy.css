@@ -775,11 +775,11 @@ aside p, aside h3, aside li {
   display: inline;
 }
 /* line 318, ../../scss/legacy.scss */
-.event-block .clearing-links li:last-child {
+.event-block .clearing-links li:not(:first-child) {
   padding-left: 10px;
 }
 /* line 322, ../../scss/legacy.scss */
-.event-block .clearing-links li:first-child {
+.event-block .clearing-links li:not(:last-child) {
   padding-right: 10px;
   margin-right: 0;
   border-right: 1px solid #008cba;

@@ -273,11 +273,11 @@ aside {
     li {
       display: inline;
 
-      &:last-child {
+      &:not(:first-child) {
         padding-left: rem-calc(10);
       }
 
-      &:first-child {
+      &:not(:last-child) {
         padding-right: rem-calc(10);
         margin-right: 0;
         border-right: 1px solid #008cba;
