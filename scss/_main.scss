@@ -145,6 +145,10 @@ aside {
   &.standout {
     width: 120px;
   }
+
+  &.full-width {
+    float: none !important;
+  }
 }
 
 .no-center {

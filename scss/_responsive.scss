@@ -41,12 +41,21 @@
       background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-m.png);
     }
   }
+
 }
 
 @media #{$large-up} {
   .bigger {
     width: rem-calc(300);
   }
+
+  .left {
+    float: left;
+    &.full-width {
+      float: left !important;
+    }
+  }
+
 }
 
 @media #{$medium-only} {

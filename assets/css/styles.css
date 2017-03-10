@@ -147,13 +147,17 @@ aside p, aside h3, aside li {
 .left.standout {
   width: 120px;
 }
+/* line 149, ../../scss/_main.scss */
+.left.full-width {
+  float: none !important;
+}
 
-/* line 150, ../../scss/_main.scss */
+/* line 154, ../../scss/_main.scss */
 .no-center {
   margin-left: 0 !important;
 }
 
-/* line 154, ../../scss/_main.scss */
+/* line 158, ../../scss/_main.scss */
 .page-title {
   font-size: 1.375rem;
   font-weight: bold;
@@ -163,14 +167,14 @@ aside p, aside h3, aside li {
   text-align: center;
 }
 
-/* line 163, ../../scss/_main.scss */
+/* line 167, ../../scss/_main.scss */
 .article-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 0.9375rem 0;
 }
 
-/* line 169, ../../scss/_main.scss */
+/* line 173, ../../scss/_main.scss */
 .role-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -178,34 +182,34 @@ aside p, aside h3, aside li {
   margin-top: 0.9375rem;
 }
 
-/* line 177, ../../scss/_main.scss */
+/* line 181, ../../scss/_main.scss */
 .lista-cantori .role-title {
   text-align: center;
 }
-/* line 182, ../../scss/_main.scss */
+/* line 186, ../../scss/_main.scss */
 .lista-cantori .curriculum p {
   text-align: justify !important;
 }
 
-/* line 189, ../../scss/_main.scss */
+/* line 193, ../../scss/_main.scss */
 .center .article-title {
   text-align: center;
 }
-/* line 194, ../../scss/_main.scss */
+/* line 198, ../../scss/_main.scss */
 .center .lista-cantori .role-title, .center .lista-cantori p {
   text-align: left;
 }
-/* line 198, ../../scss/_main.scss */
+/* line 202, ../../scss/_main.scss */
 .center .lista-cantori p {
   margin-left: 1.25rem;
 }
 
-/* line 206, ../../scss/_main.scss */
+/* line 210, ../../scss/_main.scss */
 .site-bottom-hr {
   display: none;
 }
 
-/* line 210, ../../scss/_main.scss */
+/* line 214, ../../scss/_main.scss */
 .divider {
   display: block;
   height: 0;
@@ -214,13 +218,13 @@ aside p, aside h3, aside li {
   margin: 1.875rem auto;
 }
 
-/* line 218, ../../scss/_main.scss */
+/* line 222, ../../scss/_main.scss */
 .eventi {
   width: 100%;
   margin-bottom: 3.75rem;
 }
 
-/* line 223, ../../scss/_main.scss */
+/* line 227, ../../scss/_main.scss */
 .event-container {
   width: 100%;
   border: 1px solid #929292;
@@ -228,29 +232,29 @@ aside p, aside h3, aside li {
   margin-bottom: 2.5rem;
 }
 
-/* line 230, ../../scss/_main.scss */
+/* line 234, ../../scss/_main.scss */
 .evento, .evento-trascorso {
   display: table-row;
   width: 100%;
   background-color: #fff;
 }
-/* line 235, ../../scss/_main.scss */
+/* line 239, ../../scss/_main.scss */
 .evento.concerto, .concerto.evento-trascorso {
   background-color: #eee;
 }
 
-/* line 240, ../../scss/_main.scss */
+/* line 244, ../../scss/_main.scss */
 .evento-trascorso {
   background-color: white;
 }
 
-/* line 245, ../../scss/_main.scss */
+/* line 249, ../../scss/_main.scss */
 .data-evento, .event-block {
   display: table-cell;
   padding: 0.75rem;
 }
 
-/* line 250, ../../scss/_main.scss */
+/* line 254, ../../scss/_main.scss */
 .data-evento {
   text-align: center;
   vertical-align: middle;
@@ -259,67 +263,67 @@ aside p, aside h3, aside li {
   width: 25%;
 }
 
-/* line 258, ../../scss/_main.scss */
+/* line 262, ../../scss/_main.scss */
 .event-block {
   width: 75%;
 }
-/* line 261, ../../scss/_main.scss */
+/* line 265, ../../scss/_main.scss */
 .event-block p {
   margin-bottom: 0;
 }
-/* line 265, ../../scss/_main.scss */
+/* line 269, ../../scss/_main.scss */
 .event-block ul, .event-block li, .event-block a {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 270, ../../scss/_main.scss */
+/* line 274, ../../scss/_main.scss */
 .event-block .clearing-links {
   margin-top: 1rem;
 }
-/* line 273, ../../scss/_main.scss */
+/* line 277, ../../scss/_main.scss */
 .event-block .clearing-links li {
   display: inline;
 }
-/* line 276, ../../scss/_main.scss */
+/* line 280, ../../scss/_main.scss */
 .event-block .clearing-links li:not(:first-child) {
   padding-left: 0.625rem;
 }
-/* line 280, ../../scss/_main.scss */
+/* line 284, ../../scss/_main.scss */
 .event-block .clearing-links li:not(:last-child) {
   padding-right: 0.625rem;
   margin-right: 0;
   border-right: 1px solid #008cba;
 }
 
-/* line 289, ../../scss/_main.scss */
+/* line 293, ../../scss/_main.scss */
 .event-name {
   font-style: italic;
 }
 
-/* line 293, ../../scss/_main.scss */
+/* line 297, ../../scss/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 297, ../../scss/_main.scss */
+/* line 301, ../../scss/_main.scss */
 .scheda {
   margin-bottom: 1.25rem;
 }
-/* line 299, ../../scss/_main.scss */
+/* line 303, ../../scss/_main.scss */
 .scheda p {
   margin-bottom: 0;
 }
-/* line 302, ../../scss/_main.scss */
+/* line 306, ../../scss/_main.scss */
 .scheda p:first-child {
   font-weight: bold;
 }
 
-/* line 308, ../../scss/_main.scss */
+/* line 312, ../../scss/_main.scss */
 .social-icons-container {
   margin-top: -1.5625rem;
 }
 
-/* line 312, ../../scss/_main.scss */
+/* line 316, ../../scss/_main.scss */
 .social-icon {
   display: inline-block;
   width: 1.42857rem;
@@ -336,36 +340,36 @@ aside p, aside h3, aside li {
   -moz-transition: outline .5s linear;
   transition: outline .5s linear;
 }
-/* line 328, ../../scss/_main.scss */
+/* line 332, ../../scss/_main.scss */
 .social-icon:hover, .social-icon:focus {
   outline: rgba(0, 140, 186, 0.75) solid 2px;
 }
-/* line 332, ../../scss/_main.scss */
+/* line 336, ../../scss/_main.scss */
 .no-svg .social-icon {
   background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png);
 }
 
-/* line 337, ../../scss/_main.scss */
+/* line 341, ../../scss/_main.scss */
 video {
   max-width: 100%;
 }
 
-/* line 341, ../../scss/_main.scss */
+/* line 345, ../../scss/_main.scss */
 .no-video {
   font-size: 0.875rem;
 }
-/* line 344, ../../scss/_main.scss */
+/* line 348, ../../scss/_main.scss */
 .no-video a {
   color: blue;
 }
 
-/* line 349, ../../scss/_main.scss */
+/* line 353, ../../scss/_main.scss */
 .video-label {
   font-weight: normal;
   font-style: italic;
   color: #777;
 }
-/* line 354, ../../scss/_main.scss */
+/* line 358, ../../scss/_main.scss */
 .video-label span {
   font-weight: bold;
 }
@@ -416,29 +420,38 @@ video {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 47, ../../scss/_responsive.scss */
+  /* line 48, ../../scss/_responsive.scss */
   .bigger {
     width: 18.75rem;
   }
+
+  /* line 52, ../../scss/_responsive.scss */
+  .left {
+    float: left;
+  }
+  /* line 54, ../../scss/_responsive.scss */
+  .left.full-width {
+    float: left !important;
+  }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 53, ../../scss/_responsive.scss */
+  /* line 62, ../../scss/_responsive.scss */
   .bigger {
     width: 13.75rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 59, ../../scss/_responsive.scss */
+  /* line 68, ../../scss/_responsive.scss */
   p {
     font-size: 1rem;
   }
 
-  /* line 63, ../../scss/_responsive.scss */
+  /* line 72, ../../scss/_responsive.scss */
   .increase-height {
     height: 75rem;
   }
 
-  /* line 67, ../../scss/_responsive.scss */
+  /* line 76, ../../scss/_responsive.scss */
   .bigger {
     width: 9.375rem;
   }
