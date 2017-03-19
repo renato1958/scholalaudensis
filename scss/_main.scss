@@ -321,7 +321,6 @@ aside {
   white-space: nowrap;
   overflow: hidden;
   text-indent: 100%;
-  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg);
   background-size: 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -329,12 +328,25 @@ aside {
   -moz-transition: outline .5s linear;
   transition: outline .5s linear;
 
-  &:hover, &:focus {
-    outline: rgba(0, 140, 186, .75) solid 2px;
+  &.facebook {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg);
+
+    .no-svg & {
+      background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png)
+    }
   }
 
-  .no-svg & {
-    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png)
+  &.youtube {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-youtube.svg);
+    margin-right: 1rem;
+
+    .no-svg & {
+      background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-youtube-small.png)
+    }
+  }
+
+  &:hover, &:focus {
+    outline: rgba(0, 140, 186, .75) solid 2px;
   }
 }
 

@@ -332,7 +332,6 @@ aside p, aside h3, aside li {
   white-space: nowrap;
   overflow: hidden;
   text-indent: 100%;
-  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg);
   background-size: 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -340,36 +339,49 @@ aside p, aside h3, aside li {
   -moz-transition: outline .5s linear;
   transition: outline .5s linear;
 }
-/* line 332, ../../scss/_main.scss */
+/* line 331, ../../scss/_main.scss */
+.social-icon.facebook {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook.svg);
+}
+/* line 334, ../../scss/_main.scss */
+.no-svg .social-icon.facebook {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png);
+}
+/* line 339, ../../scss/_main.scss */
+.social-icon.youtube {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-youtube.svg);
+  margin-right: 1rem;
+}
+/* line 343, ../../scss/_main.scss */
+.no-svg .social-icon.youtube {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-youtube-small.png);
+}
+/* line 348, ../../scss/_main.scss */
 .social-icon:hover, .social-icon:focus {
   outline: rgba(0, 140, 186, 0.75) solid 2px;
 }
-/* line 336, ../../scss/_main.scss */
-.no-svg .social-icon {
-  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/webicons/2.0.0/webicons/webicon-facebook-small.png);
-}
 
-/* line 341, ../../scss/_main.scss */
+/* line 353, ../../scss/_main.scss */
 video {
   max-width: 100%;
 }
 
-/* line 345, ../../scss/_main.scss */
+/* line 357, ../../scss/_main.scss */
 .no-video {
   font-size: 0.875rem;
 }
-/* line 348, ../../scss/_main.scss */
+/* line 360, ../../scss/_main.scss */
 .no-video a {
   color: blue;
 }
 
-/* line 353, ../../scss/_main.scss */
+/* line 365, ../../scss/_main.scss */
 .video-label {
   font-weight: normal;
   font-style: italic;
   color: #777;
 }
-/* line 358, ../../scss/_main.scss */
+/* line 370, ../../scss/_main.scss */
 .video-label span {
   font-weight: bold;
 }
