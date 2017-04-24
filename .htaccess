@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^scholalaudensis\.it
+RewriteRule ^(.*)$ http://www.scholalaudensis.it/$1 [R=301,L]
+
+Redirect 301 /eventi.html http://www.scholalaudensis.it/appuntamenti.html
